@@ -1,0 +1,1 @@
+D:\Projects\App\BatteryNotification\BatteryNotification\BatteryNotification.csproj;x86
