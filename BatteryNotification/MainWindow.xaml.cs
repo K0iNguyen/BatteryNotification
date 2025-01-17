@@ -39,7 +39,7 @@ namespace BatteryNotification
         {
             myButton.Content = "Clicked";
         }
-
+        
         public async void throwNotification()
         {
             NotificationManager manager = new NotificationManager("Battery Status");
