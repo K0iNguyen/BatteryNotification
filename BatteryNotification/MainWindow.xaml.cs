@@ -16,6 +16,8 @@ using Windows.Foundation.Collections;
 using Microsoft.Windows.System.Power;
 using rbnswartz.LinuxIntegration.Notifications;
 using System.Threading.Tasks;
+using Microsoft.Windows.AppNotifications;
+using System.Security.Cryptography.X509Certificates;
 
 
 // To learn more about WinUI, the WinUI project structure,
@@ -39,6 +41,7 @@ namespace BatteryNotification
         {
             int batteryPercentage = getBatteryPercentage();
             myButton.Content = batteryPercentage.ToString();
+            ThrowWindowNotification(batteryPercentage.ToString());
         }
 
         public int getBatteryPercentage()
@@ -80,8 +83,17 @@ namespace BatteryNotification
         }
 
 
-        public async void throwWindowNotification()
+        public void ThrowWindowNotification(string batteryPercentage)
         {
+            var builder = new AppNotificationBuilder()
+                .AddArgument("conversationId", "9813")
+
+                .AddText("You have reached " + batteryPercentage + "%")
+
+                .SetAudioUri(new Uri("ms-appx:///Sound.mp3"));
+
+            var notificationManager = AppNotificationManager.Default;
+            notificationManager.Show(builder.BuildNotification());
 
         }
 

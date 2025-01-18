@@ -29,7 +29,7 @@
     <AppXManifest Include="D:\Projects\App\BatteryNotification\BatteryNotification\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-01-18T03:03:42.804</Modified>
+      <Modified>2025-01-18T06:37:27.642</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Projects\App\BatteryNotification\BatteryNotification\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\BatteryNotification.dll">
       <PackagePath>BatteryNotification.dll</PackagePath>
-      <Modified>2025-01-18T03:03:39.736</Modified>
+      <Modified>2025-01-18T06:37:27.438</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Projects\App\BatteryNotification\BatteryNotification\obj\x86\Debug\net8.0-windows10.0.19041.0\win-x86\apphost.exe">
       <PackagePath>BatteryNotification.exe</PackagePath>
-      <Modified>2025-01-18T03:03:39.876</Modified>
+      <Modified>2025-01-18T06:37:27.488</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.web.webview2\1.0.2651.64\runtimes\win-x86\native\WebView2Loader.dll">
       <PackagePath>runtimes\win-x86\native\WebView2Loader.dll</PackagePath>
