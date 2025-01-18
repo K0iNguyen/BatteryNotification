@@ -37,10 +37,55 @@ namespace BatteryNotification
 
         private void myButton_Click(object sender, RoutedEventArgs e)
         {
-            myButton.Content = "Clicked";
+            int batteryPercentage = getBatteryPercentage();
+            myButton.Content = batteryPercentage.ToString();
         }
-        
-        public async void throwNotification()
+
+        public int getBatteryPercentage()
+        {
+            int batteryPercentage = -1;
+            //var os = Environment.OSVersion;
+
+            //System.Runtime.InteropServices.RuntimeInformation.OSDescription ==
+            if (System.Runtime.InteropServices.RuntimeInformation.OSDescription.Contains("Windows"))
+            {
+                batteryPercentage = PowerManager.RemainingChargePercent;
+            }
+            else if (System.Runtime.InteropServices.RuntimeInformation.OSDescription.Contains("Linux"))
+            {
+                bool read = false;
+                int batNUM = 0;
+                while (!read)
+                {
+                    try
+                    {
+                        string addressString = "/~/sys/class/power_supply/";
+                        addressString += "BAT" + batNUM.ToString() + "/capacity";
+                        StreamReader file = new(addressString);
+                        read = true;
+                        batteryPercentage = Int32.Parse(file.ReadLine());
+                    }
+                    catch (DirectoryNotFoundException e)
+                    {
+                        batNUM ++;
+                        if (batNUM == 10)
+                        {
+                            read = true;
+                        }
+                    }//End catch
+                }//End while
+            }//End else if
+
+            return batteryPercentage;
+        }
+
+
+        public async void throwWindowNotification()
+        {
+
+        }
+
+        public async void throwLinuxNotification()
         {
             NotificationManager manager = new NotificationManager("Battery Status");
             var summary = "Battery Percentage Status";
@@ -48,7 +93,7 @@ namespace BatteryNotification
             body += batteryPercentage[batteryIndex].ToString();
             await manager.ShowNotificationAsync(summary, body, expiration: 5000);
         }
-        
+
 
 
     }

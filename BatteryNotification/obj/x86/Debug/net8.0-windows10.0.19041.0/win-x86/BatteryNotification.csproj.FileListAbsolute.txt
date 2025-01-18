@@ -205,7 +205,6 @@ D:\Projects\App\BatteryNotification\BatteryNotification\bin\x86\Debug\net8.0-win
 D:\Projects\App\BatteryNotification\BatteryNotification\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\hostfxr.dll
 D:\Projects\App\BatteryNotification\BatteryNotification\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\hostpolicy.dll
 D:\Projects\App\BatteryNotification\BatteryNotification\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\mscordaccore.dll
-D:\Projects\App\BatteryNotification\BatteryNotification\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\mscordaccore_x86_x86_8.0.824.36612.dll
 D:\Projects\App\BatteryNotification\BatteryNotification\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\mscordbi.dll
 D:\Projects\App\BatteryNotification\BatteryNotification\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\mscorrc.dll
 D:\Projects\App\BatteryNotification\BatteryNotification\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\msquic.dll
@@ -249,3 +248,7 @@ D:\Projects\App\BatteryNotification\BatteryNotification\obj\x86\Debug\net8.0-win
 D:\Projects\App\BatteryNotification\BatteryNotification\obj\x86\Debug\net8.0-windows10.0.19041.0\win-x86\qualifiers.txt.intermediate
 D:\Projects\App\BatteryNotification\BatteryNotification\obj\x86\Debug\net8.0-windows10.0.19041.0\win-x86\MultipleQualifiersPerDimensionFound.txt
 D:\Projects\App\BatteryNotification\BatteryNotification\obj\x86\Debug\net8.0-windows10.0.19041.0\win-x86\ProjectArchitectures.txt
+D:\Projects\App\BatteryNotification\BatteryNotification\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\rbnswartz.LinuxIntegration.Notifications.dll
+D:\Projects\App\BatteryNotification\BatteryNotification\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\Tmds.DBus.dll
+D:\Projects\App\BatteryNotification\BatteryNotification\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\mscordaccore_x86_x86_8.0.1224.60305.dll
+D:\Projects\App\BatteryNotification\BatteryNotification\obj\x86\Debug\net8.0-windows10.0.19041.0\win-x86\BatteryNotification.sourcelink.json
