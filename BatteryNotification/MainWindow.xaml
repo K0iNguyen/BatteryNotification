@@ -2,13 +2,21 @@
 <Window
     x:Class="BatteryNotification.MainWindow"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"  
     xmlns:local="using:BatteryNotification"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
-        <Button x:Name="myButton" Click="myButton_Click">Click Me</Button>
-    </StackPanel>
+    <Grid Background="DimGray">
+        <StackPanel Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
+                <TextBlock Text="Send notification when the battery percentage reached: " Foreground="White" VerticalAlignment="Center" HorizontalTextAlignment="Center" HorizontalAlignment="Center"/>
+                <TextBox PlaceholderText="Ex Inputs: 80,40,..."  TextChanged="getBatteryPercentage"/>
+            </StackPanel>
+            <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+                <Button Click="testNotification">Test Notification</Button>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
 </Window>

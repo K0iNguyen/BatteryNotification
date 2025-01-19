@@ -1,1 +1,1 @@
-d:\Projects\App\BatteryNotification\BatteryNotification\BatteryNotification.csproj;arm64
+D:\Projects\App\BatteryNotification\BatteryNotification\BatteryNotification.csproj;arm64

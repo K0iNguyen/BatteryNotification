@@ -32,19 +32,37 @@ namespace BatteryNotification
     {
         int[] batteryPercentage;
         int batteryIndex;
+
         public MainWindow()
         {
             this.InitializeComponent();
+            AppWindow.Resize(new Windows.Graphics.SizeInt32(650, 250));
+
+            PowerManager.RemainingChargePercentChanged += CheckBatteryPercentage;
         }
 
-        private void myButton_Click(object sender, RoutedEventArgs e)
+        public void CheckBatteryPercentage(object sender, object e)
         {
-            int batteryPercentage = getBatteryPercentage();
-            myButton.Content = batteryPercentage.ToString();
-            ThrowWindowNotification(batteryPercentage.ToString());
+
+            throw new NotImplementedException();
         }
 
-        public int getBatteryPercentage()
+        private void testNotification(object sender, RoutedEventArgs e)
+        {
+            int batteryPercentage = getCurrentBatteryPercentage();
+            ThrowNotification(batteryPercentage.ToString());
+        }
+
+        public void getBatteryPercentage(object sender, TextBoxTextChangingEventArgs e)
+        {
+            string[] stringList = e.ToString().Split(',');
+            for (int i = 0; i < stringList.Length; i++) 
+            {
+                batteryPercentage[i] = Int32.Parse(stringList[i]);
+            }
+        }
+
+        public int getCurrentBatteryPercentage()
         {
             int batteryPercentage = -1;
             //var os = Environment.OSVersion;
@@ -82,6 +100,17 @@ namespace BatteryNotification
             return batteryPercentage;
         }
 
+        public void ThrowNotification(string batteryPercentage)
+        {
+            if (System.Runtime.InteropServices.RuntimeInformation.OSDescription.Contains("Windows"))
+            {
+                ThrowWindowNotification(batteryPercentage);
+            }
+            else if (System.Runtime.InteropServices.RuntimeInformation.OSDescription.Contains("Linux"))
+            {
+                throwLinuxNotification(batteryPercentage);
+            }
+        }
 
         public void ThrowWindowNotification(string batteryPercentage)
         {
@@ -97,12 +126,11 @@ namespace BatteryNotification
 
         }
 
-        public async void throwLinuxNotification()
+        public async void throwLinuxNotification(string batteryPercentage)
         {
-            NotificationManager manager = new NotificationManager("Battery Status");
-            var summary = "Battery Percentage Status";
-            var body = "Battery Percentage reached ";
-            body += batteryPercentage[batteryIndex].ToString();
+            NotificationManager manager = new NotificationManager("BatteryNotification");
+            var summary = "Current Battery Percentage Status";
+            var body = "You have reached " + batteryPercentage + "%";
             await manager.ShowNotificationAsync(summary, body, expiration: 5000);
         }
 

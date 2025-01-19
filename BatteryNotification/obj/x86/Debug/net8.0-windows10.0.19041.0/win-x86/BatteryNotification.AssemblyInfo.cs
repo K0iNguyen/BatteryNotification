@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BatteryNotification")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e7fa36e2c5e7c8680f283a313e2f24861472ba77")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c71252ffd7100c91b43aa9f8a2aab2a53fa4913d")]
 [assembly: System.Reflection.AssemblyProductAttribute("BatteryNotification")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BatteryNotification")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
