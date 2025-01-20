@@ -18,7 +18,9 @@ using rbnswartz.LinuxIntegration.Notifications;
 using System.Threading.Tasks;
 using Microsoft.Windows.AppNotifications;
 using System.Security.Cryptography.X509Certificates;
-
+using Windows.System;
+using Microsoft.Extensions.Logging;
+using ABI.System.Collections.Generic;
 
 // To learn more about WinUI, the WinUI project structure,
 // and more about our project templates, see: http://aka.ms/winui-project-info.
@@ -30,8 +32,13 @@ namespace BatteryNotification
     /// </summary>
     public sealed partial class MainWindow : Window
     {
-        int[] batteryPercentage;
-        int batteryIndex;
+        int[] batteryPercentage = [0,0,0,0,0,0,0,0,0,0];
+
+        /// <summary>
+        /// Debug Logger operation
+        /// </summary>
+        static ILoggerFactory factory = LoggerFactory.Create(builder => builder.AddConsole().AddDebug().SetMinimumLevel(LogLevel.Debug));
+        ILogger logger = factory.CreateLogger<MainWindow>();
 
         public MainWindow()
         {
@@ -43,22 +50,45 @@ namespace BatteryNotification
 
         public void CheckBatteryPercentage(object sender, object e)
         {
-
-            throw new NotImplementedException();
+            for (int i = 0; i < batteryPercentage.Length; i++)
+            {
+                if (getCurrentBatteryPercentage() == batteryPercentage[i])
+                {
+                    ThrowNotification(batteryPercentage[i].ToString());
+                }
+            }
         }
 
         private void testNotification(object sender, RoutedEventArgs e)
         {
-            int batteryPercentage = getCurrentBatteryPercentage();
-            ThrowNotification(batteryPercentage.ToString());
+            int batteryCurrentPercentage = getCurrentBatteryPercentage();
+            ThrowNotification(batteryPercentage[0].ToString());
         }
 
-        public void getBatteryPercentage(object sender, TextBoxTextChangingEventArgs e)
+        public void getBatteryPercentage(object sender, KeyRoutedEventArgs e)
         {
-            string[] stringList = e.ToString().Split(',');
-            for (int i = 0; i < stringList.Length; i++) 
+            if (e.Key == (VirtualKey)13)
             {
-                batteryPercentage[i] = Int32.Parse(stringList[i]);
+                string[] stringList = PercentTextBox.Text.Split(',');
+                if (stringList.Length > 10)
+                {
+                    logger.LogDebug("stringList longer than 10");
+                    return;
+                }
+                for (int i = 0; i < stringList.Length; i++)
+                {
+                    int singularPercent;
+                    if (Int32.TryParse(stringList[i], out singularPercent))
+                    {
+                        batteryPercentage[i] = singularPercent;
+                        logger.LogDebug("Added {singularPercent}", singularPercent);
+
+                    }
+                    else
+                    {
+                        logger.LogDebug("Can't add value");
+                    }
+                }
             }
         }
 
@@ -67,7 +97,7 @@ namespace BatteryNotification
             int batteryPercentage = -1;
             //var os = Environment.OSVersion;
 
-            //System.Runtime.InteropServices.RuntimeInformation.OSDescription ==
+            //System.Runtime.InteropServices.RuntimeInformation.OSDescription == Get OS Description
             if (System.Runtime.InteropServices.RuntimeInformation.OSDescription.Contains("Windows"))
             {
                 batteryPercentage = PowerManager.RemainingChargePercent;

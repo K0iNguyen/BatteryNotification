@@ -12,7 +12,7 @@
         <StackPanel Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center">
             <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
                 <TextBlock Text="Send notification when the battery percentage reached: " Foreground="White" VerticalAlignment="Center" HorizontalTextAlignment="Center" HorizontalAlignment="Center"/>
-                <TextBox PlaceholderText="Ex Inputs: 80,40,..."  TextChanged="getBatteryPercentage"/>
+                <TextBox Name="PercentTextBox" PlaceholderText="Ex Inputs: 80,40,..."  KeyDown="getBatteryPercentage"/>
             </StackPanel>
             <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
                 <Button Click="testNotification">Test Notification</Button>
