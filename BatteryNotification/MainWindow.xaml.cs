@@ -47,6 +47,7 @@ namespace BatteryNotification
             AppWindow.Resize(new Windows.Graphics.SizeInt32(650, 250));
             Directory.CreateDirectory(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "BatteryNotification"));
             logger.LogDebug(cachePath);
+            readMemory(cachePath);
             PowerManager.RemainingChargePercentChanged += CheckBatteryPercentage;
         }
 
@@ -54,10 +55,10 @@ namespace BatteryNotification
         {
             int batteryCurrentPercentage = getCurrentBatteryPercentage();
             ThrowNotification(batteryPercentage[0].ToString());
-            writeMemory();
+            //writeMemory(cachePath);
         }
 
-        public void writeMemory()
+        public void writeMemory(string cachePath)
         {
             try
             {
@@ -76,7 +77,7 @@ namespace BatteryNotification
             }
         }
 
-        public void readMemory() 
+        public void readMemory(string cachePath) 
         {
             try
             {
@@ -114,6 +115,7 @@ namespace BatteryNotification
         {
             if (e.Key == (VirtualKey)13)
             {
+                writeMemory(cachePath);
                 string[] stringList = PercentTextBox.Text.Split(',');
                 if (stringList.Length > 10)
                 {

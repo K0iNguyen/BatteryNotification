@@ -3,18 +3,15 @@
   "WorkspaceRootPath": "D:\\Projects\\App\\BatteryNotification\\BatteryNotification\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{41DDA1EA-1538-4938-8EE6-93D6A7F3440F}|BatteryNotification.csproj|d:\\projects\\app\\batterynotification\\batterynotification\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{41DDA1EA-1538-4938-8EE6-93D6A7F3440F}|BatteryNotification.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{41DDA1EA-1538-4938-8EE6-93D6A7F3440F}|BatteryNotification.csproj|d:\\projects\\app\\batterynotification\\batterynotification\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{41DDA1EA-1538-4938-8EE6-93D6A7F3440F}|BatteryNotification.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\App\\BatteryNotification\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\App\\BMS-Manager-App\\MainWindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41DDA1EA-1538-4938-8EE6-93D6A7F3440F}|BatteryNotification.csproj|d:\\projects\\app\\batterynotification\\batterynotification\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{41DDA1EA-1538-4938-8EE6-93D6A7F3440F}|BatteryNotification.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{41DDA1EA-1538-4938-8EE6-93D6A7F3440F}|BatteryNotification.csproj|d:\\projects\\app\\batterynotification\\batterynotification\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -48,7 +45,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "README.md",
               "DocumentMoniker": "D:\\Projects\\App\\BatteryNotification\\README.md",
               "RelativeDocumentMoniker": "..\\README.md",
@@ -56,48 +53,38 @@
               "RelativeToolTip": "..\\README.md",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2025-01-20T21:50:10.112Z"
+              "WhenOpened": "2025-01-20T21:50:10.112Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\Projects\\App\\BMS-Manager-App\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "..\\..\\BMS-Manager-App\\MainWindow.xaml.cs",
-              "ToolTip": "D:\\Projects\\App\\BMS-Manager-App\\MainWindow.xaml.cs",
-              "RelativeToolTip": "..\\..\\BMS-Manager-App\\MainWindow.xaml.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAAAEsAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T18:02:07.286Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\Projects\\App\\BatteryNotification\\BatteryNotification\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
               "ToolTip": "D:\\Projects\\App\\BatteryNotification\\BatteryNotification\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAwwC8AAACNAAAAAAAAAA==",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAwwDkAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-14T15:09:06.762Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\Projects\\App\\BatteryNotification\\BatteryNotification\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
               "ToolTip": "D:\\Projects\\App\\BatteryNotification\\BatteryNotification\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-01-19T23:54:52.702Z"
+              "WhenOpened": "2025-01-19T23:54:52.702Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "D:\\Projects\\App\\BatteryNotification\\BatteryNotification\\App.xaml.cs",
               "RelativeDocumentMoniker": "App.xaml.cs",
@@ -109,7 +96,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "App.xaml",
               "DocumentMoniker": "D:\\Projects\\App\\BatteryNotification\\BatteryNotification\\App.xaml",
               "RelativeDocumentMoniker": "App.xaml",
@@ -121,7 +108,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "BatteryNotification.csproj",
               "DocumentMoniker": "D:\\Projects\\App\\BatteryNotification\\BatteryNotification\\BatteryNotification.csproj",
               "RelativeDocumentMoniker": "BatteryNotification.csproj",
