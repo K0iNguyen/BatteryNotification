@@ -50,8 +50,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 210,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -75,8 +87,7 @@
               "RelativeToolTip": "BatteryNotification\\BatteryNotification\\Components\\Routes.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-27T05:08:22.855Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-27T05:08:22.855Z"
             },
             {
               "$type": "Document",
@@ -88,8 +99,7 @@
               "RelativeToolTip": "BatteryNotification\\BatteryNotification\\Components\\_Imports.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-27T05:08:21.424Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-27T05:08:21.424Z"
             },
             {
               "$type": "Document",
@@ -101,8 +111,7 @@
               "RelativeToolTip": "BatteryNotification\\BatteryNotification\\Components\\Layout\\NavMenu.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-27T05:08:17.934Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-27T05:08:17.934Z"
             },
             {
               "$type": "Document",
@@ -114,21 +123,19 @@
               "RelativeToolTip": "BatteryNotification\\BatteryNotification\\Components\\Layout\\MainLayout.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-27T05:08:14.326Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-27T05:08:14.326Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "BatteryNotification.Client",
+              "Title": "BatteryNotification.Client.csproj",
               "DocumentMoniker": "D:\\Projects\\App\\BatteryNotification\\BatteryNotificationLinux\\BatteryNotification\\BatteryNotification\\BatteryNotification.Client\\BatteryNotification.Client.csproj",
               "RelativeDocumentMoniker": "BatteryNotification\\BatteryNotification.Client\\BatteryNotification.Client.csproj",
               "ToolTip": "D:\\Projects\\App\\BatteryNotification\\BatteryNotificationLinux\\BatteryNotification\\BatteryNotification\\BatteryNotification.Client\\BatteryNotification.Client.csproj",
               "RelativeToolTip": "BatteryNotification\\BatteryNotification.Client\\BatteryNotification.Client.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-01-27T05:08:02.323Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-27T05:08:02.323Z"
             },
             {
               "$type": "Document",
@@ -140,8 +147,7 @@
               "RelativeToolTip": "BatteryNotification\\BatteryNotification.Client\\wwwroot\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-27T05:08:00.718Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-27T05:08:00.718Z"
             },
             {
               "$type": "Document",
@@ -153,8 +159,7 @@
               "RelativeToolTip": "BatteryNotification\\BatteryNotification.Client\\Pages\\Counter.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-27T05:07:51.911Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-27T05:07:51.911Z"
             },
             {
               "$type": "Document",
@@ -166,8 +171,7 @@
               "RelativeToolTip": "BatteryNotification\\BatteryNotification.Client\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T05:07:47.983Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-27T05:07:47.983Z"
             },
             {
               "$type": "Document",
@@ -179,20 +183,7 @@
               "RelativeToolTip": "BatteryNotification\\BatteryNotification\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T05:07:42.211Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "WhenOpened": "2025-01-27T05:07:42.211Z"
             }
           ]
         }

@@ -1,7 +1,48 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Projects\\App\\BatteryNotification\\BatteryNotificationLinux\\BatteryNotification\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8F295DD8-8355-4E3F-99CC-ABE22095F839}|BatteryNotification\\BatteryNotification\\BatteryNotification.csproj|d:\\projects\\app\\batterynotification\\batterynotificationlinux\\batterynotification\\batterynotification\\batterynotification\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8F295DD8-8355-4E3F-99CC-ABE22095F839}|BatteryNotification\\BatteryNotification\\BatteryNotification.csproj|solutionrelative:batterynotification\\batterynotification\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F295DD8-8355-4E3F-99CC-ABE22095F839}|BatteryNotification\\BatteryNotification\\BatteryNotification.csproj|d:\\projects\\app\\batterynotification\\batterynotificationlinux\\batterynotification\\batterynotification\\batterynotification\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8F295DD8-8355-4E3F-99CC-ABE22095F839}|BatteryNotification\\BatteryNotification\\BatteryNotification.csproj|solutionrelative:batterynotification\\batterynotification\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F295DD8-8355-4E3F-99CC-ABE22095F839}|BatteryNotification\\BatteryNotification\\BatteryNotification.csproj|d:\\projects\\app\\batterynotification\\batterynotificationlinux\\batterynotification\\batterynotification\\batterynotification\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8F295DD8-8355-4E3F-99CC-ABE22095F839}|BatteryNotification\\BatteryNotification\\BatteryNotification.csproj|solutionrelative:batterynotification\\batterynotification\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F295DD8-8355-4E3F-99CC-ABE22095F839}|BatteryNotification\\BatteryNotification\\BatteryNotification.csproj|d:\\projects\\app\\batterynotification\\batterynotificationlinux\\batterynotification\\batterynotification\\batterynotification\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F295DD8-8355-4E3F-99CC-ABE22095F839}|BatteryNotification\\BatteryNotification\\BatteryNotification.csproj|solutionrelative:batterynotification\\batterynotification\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{924586B9-B302-46B6-9A6F-442B93C12944}|BatteryNotification\\BatteryNotification.Client\\BatteryNotification.Client.csproj|d:\\projects\\app\\batterynotification\\batterynotificationlinux\\batterynotification\\batterynotification\\batterynotification.client\\batterynotification.client.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{924586B9-B302-46B6-9A6F-442B93C12944}|BatteryNotification\\BatteryNotification.Client\\BatteryNotification.Client.csproj|solutionrelative:batterynotification\\batterynotification.client\\batterynotification.client.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F295DD8-8355-4E3F-99CC-ABE22095F839}|BatteryNotification\\BatteryNotification\\BatteryNotification.csproj|d:\\projects\\app\\batterynotification\\batterynotificationlinux\\batterynotification\\batterynotification\\batterynotification\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8F295DD8-8355-4E3F-99CC-ABE22095F839}|BatteryNotification\\BatteryNotification\\BatteryNotification.csproj|solutionrelative:batterynotification\\batterynotification\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F295DD8-8355-4E3F-99CC-ABE22095F839}|BatteryNotification\\BatteryNotification\\BatteryNotification.csproj|d:\\projects\\app\\batterynotification\\batterynotificationlinux\\batterynotification\\batterynotification\\batterynotification\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8F295DD8-8355-4E3F-99CC-ABE22095F839}|BatteryNotification\\BatteryNotification\\BatteryNotification.csproj|solutionrelative:batterynotification\\batterynotification\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{924586B9-B302-46B6-9A6F-442B93C12944}|BatteryNotification\\BatteryNotification.Client\\BatteryNotification.Client.csproj|d:\\projects\\app\\batterynotification\\batterynotificationlinux\\batterynotification\\batterynotification\\batterynotification.client\\wwwroot\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{924586B9-B302-46B6-9A6F-442B93C12944}|BatteryNotification\\BatteryNotification.Client\\BatteryNotification.Client.csproj|solutionrelative:batterynotification\\batterynotification.client\\wwwroot\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{924586B9-B302-46B6-9A6F-442B93C12944}|BatteryNotification\\BatteryNotification.Client\\BatteryNotification.Client.csproj|d:\\projects\\app\\batterynotification\\batterynotificationlinux\\batterynotification\\batterynotification\\batterynotification.client\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{924586B9-B302-46B6-9A6F-442B93C12944}|BatteryNotification\\BatteryNotification.Client\\BatteryNotification.Client.csproj|solutionrelative:batterynotification\\batterynotification.client\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{924586B9-B302-46B6-9A6F-442B93C12944}|BatteryNotification\\BatteryNotification.Client\\BatteryNotification.Client.csproj|d:\\projects\\app\\batterynotification\\batterynotificationlinux\\batterynotification\\batterynotification\\batterynotification.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{924586B9-B302-46B6-9A6F-442B93C12944}|BatteryNotification\\BatteryNotification.Client\\BatteryNotification.Client.csproj|solutionrelative:batterynotification\\batterynotification.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +50,138 @@
       "DocumentGroups": [
         {
           "DockedWidth": 210,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.razor",
+              "DocumentMoniker": "D:\\Projects\\App\\BatteryNotification\\BatteryNotificationLinux\\BatteryNotification\\BatteryNotification\\BatteryNotification\\Components\\App.razor",
+              "RelativeDocumentMoniker": "BatteryNotification\\BatteryNotification\\Components\\App.razor",
+              "ToolTip": "D:\\Projects\\App\\BatteryNotification\\BatteryNotificationLinux\\BatteryNotification\\BatteryNotification\\BatteryNotification\\Components\\App.razor",
+              "RelativeToolTip": "BatteryNotification\\BatteryNotification\\Components\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-27T05:08:23.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Routes.razor",
+              "DocumentMoniker": "D:\\Projects\\App\\BatteryNotification\\BatteryNotificationLinux\\BatteryNotification\\BatteryNotification\\BatteryNotification\\Components\\Routes.razor",
+              "RelativeDocumentMoniker": "BatteryNotification\\BatteryNotification\\Components\\Routes.razor",
+              "ToolTip": "D:\\Projects\\App\\BatteryNotification\\BatteryNotificationLinux\\BatteryNotification\\BatteryNotification\\BatteryNotification\\Components\\Routes.razor",
+              "RelativeToolTip": "BatteryNotification\\BatteryNotification\\Components\\Routes.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-27T05:08:22.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "D:\\Projects\\App\\BatteryNotification\\BatteryNotificationLinux\\BatteryNotification\\BatteryNotification\\BatteryNotification\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "BatteryNotification\\BatteryNotification\\Components\\_Imports.razor",
+              "ToolTip": "D:\\Projects\\App\\BatteryNotification\\BatteryNotificationLinux\\BatteryNotification\\BatteryNotification\\BatteryNotification\\Components\\_Imports.razor",
+              "RelativeToolTip": "BatteryNotification\\BatteryNotification\\Components\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-27T05:08:21.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "D:\\Projects\\App\\BatteryNotification\\BatteryNotificationLinux\\BatteryNotification\\BatteryNotification\\BatteryNotification\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "BatteryNotification\\BatteryNotification\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "D:\\Projects\\App\\BatteryNotification\\BatteryNotificationLinux\\BatteryNotification\\BatteryNotification\\BatteryNotification\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "BatteryNotification\\BatteryNotification\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-27T05:08:17.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "D:\\Projects\\App\\BatteryNotification\\BatteryNotificationLinux\\BatteryNotification\\BatteryNotification\\BatteryNotification\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "BatteryNotification\\BatteryNotification\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "D:\\Projects\\App\\BatteryNotification\\BatteryNotificationLinux\\BatteryNotification\\BatteryNotification\\BatteryNotification\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "BatteryNotification\\BatteryNotification\\Components\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-27T05:08:14.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BatteryNotification.Client",
+              "DocumentMoniker": "D:\\Projects\\App\\BatteryNotification\\BatteryNotificationLinux\\BatteryNotification\\BatteryNotification\\BatteryNotification.Client\\BatteryNotification.Client.csproj",
+              "RelativeDocumentMoniker": "BatteryNotification\\BatteryNotification.Client\\BatteryNotification.Client.csproj",
+              "ToolTip": "D:\\Projects\\App\\BatteryNotification\\BatteryNotificationLinux\\BatteryNotification\\BatteryNotification\\BatteryNotification.Client\\BatteryNotification.Client.csproj",
+              "RelativeToolTip": "BatteryNotification\\BatteryNotification.Client\\BatteryNotification.Client.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-27T05:08:02.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Projects\\App\\BatteryNotification\\BatteryNotificationLinux\\BatteryNotification\\BatteryNotification\\BatteryNotification.Client\\wwwroot\\appsettings.json",
+              "RelativeDocumentMoniker": "BatteryNotification\\BatteryNotification.Client\\wwwroot\\appsettings.json",
+              "ToolTip": "D:\\Projects\\App\\BatteryNotification\\BatteryNotificationLinux\\BatteryNotification\\BatteryNotification\\BatteryNotification.Client\\wwwroot\\appsettings.json",
+              "RelativeToolTip": "BatteryNotification\\BatteryNotification.Client\\wwwroot\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-27T05:08:00.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Counter.razor",
+              "DocumentMoniker": "D:\\Projects\\App\\BatteryNotification\\BatteryNotificationLinux\\BatteryNotification\\BatteryNotification\\BatteryNotification.Client\\Pages\\Counter.razor",
+              "RelativeDocumentMoniker": "BatteryNotification\\BatteryNotification.Client\\Pages\\Counter.razor",
+              "ToolTip": "D:\\Projects\\App\\BatteryNotification\\BatteryNotificationLinux\\BatteryNotification\\BatteryNotification\\BatteryNotification.Client\\Pages\\Counter.razor",
+              "RelativeToolTip": "BatteryNotification\\BatteryNotification.Client\\Pages\\Counter.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-27T05:07:51.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projects\\App\\BatteryNotification\\BatteryNotificationLinux\\BatteryNotification\\BatteryNotification\\BatteryNotification.Client\\Program.cs",
+              "RelativeDocumentMoniker": "BatteryNotification\\BatteryNotification.Client\\Program.cs",
+              "ToolTip": "D:\\Projects\\App\\BatteryNotification\\BatteryNotificationLinux\\BatteryNotification\\BatteryNotification\\BatteryNotification.Client\\Program.cs",
+              "RelativeToolTip": "BatteryNotification\\BatteryNotification.Client\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T05:07:47.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projects\\App\\BatteryNotification\\BatteryNotificationLinux\\BatteryNotification\\BatteryNotification\\BatteryNotification\\Program.cs",
+              "RelativeDocumentMoniker": "BatteryNotification\\BatteryNotification\\Program.cs",
+              "ToolTip": "D:\\Projects\\App\\BatteryNotification\\BatteryNotificationLinux\\BatteryNotification\\BatteryNotification\\BatteryNotification\\Program.cs",
+              "RelativeToolTip": "BatteryNotification\\BatteryNotification\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T05:07:42.211Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"

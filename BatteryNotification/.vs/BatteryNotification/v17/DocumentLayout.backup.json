@@ -3,6 +3,16 @@
   "WorkspaceRootPath": "D:\\Projects\\App\\BatteryNotification\\BatteryNotification\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\App\\BatteryNotification\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41DDA1EA-1538-4938-8EE6-93D6A7F3440F}|BatteryNotification.csproj|d:\\projects\\app\\batterynotification\\batterynotification\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{41DDA1EA-1538-4938-8EE6-93D6A7F3440F}|BatteryNotification.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41DDA1EA-1538-4938-8EE6-93D6A7F3440F}|BatteryNotification.csproj|c:\\users\\admin\\.nuget\\packages\\microsoft.windowsappsdk\\1.6.250108002\\include\\mddbootstrapautoinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{41DDA1EA-1538-4938-8EE6-93D6A7F3440F}|BatteryNotification.csproj|d:\\projects\\app\\batterynotification\\batterynotification\\batterynotification.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{41DDA1EA-1538-4938-8EE6-93D6A7F3440F}|BatteryNotification.csproj|solutionrelative:batterynotification.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
@@ -17,21 +27,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 210,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BatteryNotification",
-              "DocumentMoniker": "D:\\Projects\\App\\BatteryNotification\\BatteryNotification\\BatteryNotification.csproj",
-              "RelativeDocumentMoniker": "BatteryNotification.csproj",
-              "ToolTip": "D:\\Projects\\App\\BatteryNotification\\BatteryNotification\\BatteryNotification.csproj",
-              "RelativeToolTip": "BatteryNotification.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-01-27T04:01:28.366Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -46,14 +43,63 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "README.md",
+              "DocumentMoniker": "D:\\Projects\\App\\BatteryNotification\\README.md",
+              "RelativeDocumentMoniker": "..\\README.md",
+              "ToolTip": "D:\\Projects\\App\\BatteryNotification\\README.md*",
+              "RelativeToolTip": "..\\README.md*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-01-27T15:28:17.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\Projects\\App\\BatteryNotification\\BatteryNotification\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "D:\\Projects\\App\\BatteryNotification\\BatteryNotification\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-27T15:27:57.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MddBootstrapAutoInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\.nuget\\packages\\microsoft.windowsappsdk\\1.6.250108002\\include\\MddBootstrapAutoInitializer.cs",
+              "ToolTip": "C:\\Users\\Admin\\.nuget\\packages\\microsoft.windowsappsdk\\1.6.250108002\\include\\MddBootstrapAutoInitializer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T15:27:52.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BatteryNotification.csproj",
+              "DocumentMoniker": "D:\\Projects\\App\\BatteryNotification\\BatteryNotification\\BatteryNotification.csproj",
+              "RelativeDocumentMoniker": "BatteryNotification.csproj",
+              "ToolTip": "D:\\Projects\\App\\BatteryNotification\\BatteryNotification\\BatteryNotification.csproj",
+              "RelativeToolTip": "BatteryNotification.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-27T04:01:28.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Microsoft.NET.RuntimeIdentifierInference.targets",
               "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.102\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.RuntimeIdentifierInference.targets",
               "ToolTip": "C:\\Program Files\\dotnet\\sdk\\9.0.102\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.RuntimeIdentifierInference.targets",
               "ViewState": "AgIAABsBAAAAAAAAAADwvy4BAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-01-27T03:57:56.919Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-27T03:57:56.919Z"
             }
           ]
         }
