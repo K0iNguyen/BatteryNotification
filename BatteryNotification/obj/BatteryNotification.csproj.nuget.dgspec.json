@@ -27,6 +27,7 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
+          "D:\\Projects\\App\\BMS-Manager-App\\ExternalPackage": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -65,11 +66,11 @@
             },
             "Microsoft.Windows.SDK.BuildTools": {
               "target": "Package",
-              "version": "[10.0.22621.756, )"
+              "version": "[10.0.26100.1742, )"
             },
             "Microsoft.WindowsAppSDK": {
               "target": "Package",
-              "version": "[1.6.241114003, )"
+              "version": "[1.6.250108002, )"
             },
             "rbnswartz.LinuxIntegration.Notifications": {
               "target": "Package",
@@ -89,19 +90,11 @@
           "warn": true,
           "downloadDependencies": [
             {
-              "name": "Microsoft.AspNetCore.App.Runtime.win-arm64",
-              "version": "[8.0.12, 8.0.12]"
-            },
-            {
               "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
               "version": "[8.0.12, 8.0.12]"
             },
             {
               "name": "Microsoft.AspNetCore.App.Runtime.win-x86",
-              "version": "[8.0.12, 8.0.12]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Runtime.win-arm64",
               "version": "[8.0.12, 8.0.12]"
             },
             {
@@ -114,11 +107,7 @@
             },
             {
               "name": "Microsoft.Windows.SDK.NET.Ref",
-              "version": "[10.0.19041.41, 10.0.19041.41]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Runtime.win-arm64",
-              "version": "[8.0.12, 8.0.12]"
+              "version": "[10.0.19041.57, 10.0.19041.57]"
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
@@ -141,9 +130,6 @@
         }
       },
       "runtimes": {
-        "win-arm64": {
-          "#import": []
-        },
         "win-x64": {
           "#import": []
         },

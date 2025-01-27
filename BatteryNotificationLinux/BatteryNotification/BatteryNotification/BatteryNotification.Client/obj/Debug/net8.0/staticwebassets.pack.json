@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Projects\\App\\BatteryNotification\\BatteryNotificationLinux\\BatteryNotification\\BatteryNotification\\BatteryNotification.Client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "D:\\Projects\\App\\BatteryNotification\\BatteryNotificationLinux\\BatteryNotification\\BatteryNotification\\BatteryNotification.Client\\wwwroot\\appsettings.Development.json",
+      "PackagePath": "staticwebassets\\appsettings.Development.json"
+    },
+    {
+      "Id": "D:\\Projects\\App\\BatteryNotification\\BatteryNotificationLinux\\BatteryNotification\\BatteryNotification\\BatteryNotification.Client\\wwwroot\\appsettings.json",
+      "PackagePath": "staticwebassets\\appsettings.json"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BatteryNotification.Client.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BatteryNotification.Client.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.BatteryNotification.Client.props",
+      "PackagePath": "build\\BatteryNotification.Client.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.BatteryNotification.Client.props",
+      "PackagePath": "buildMultiTargeting\\BatteryNotification.Client.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.BatteryNotification.Client.props",
+      "PackagePath": "buildTransitive\\BatteryNotification.Client.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

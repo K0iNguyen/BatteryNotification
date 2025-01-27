@@ -11,13 +11,13 @@
   <mp:PhoneIdentity PhoneProductId="b3856aad-c5d2-4d17-a1e4-d9344ca0fe9b" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>BatteryNotification</DisplayName>
-    <PublisherDisplayName>Admin</PublisherDisplayName>
+    <PublisherDisplayName>Khoi Anh Nguyen</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
   <Dependencies>
     <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0" />
     <TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0" />
-    <PackageDependency Name="Microsoft.WindowsAppRuntime.1.6" MinVersion="6000.318.2304.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
+    <PackageDependency Name="Microsoft.WindowsAppRuntime.1.6" MinVersion="6000.373.1641.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
   </Dependencies>
   <Resources>
     <Resource Language="EN-US" />
@@ -34,7 +34,7 @@
     <rescap:Capability Name="runFullTrust" />
   </Capabilities>
   <build:Metadata>
-    <build:Item Name="Microsoft.UI.Xaml.Markup.Compiler.dll" Version="3.0.0.2411" />
-    <build:Item Name="makepri.exe" Version="10.0.22621.755 (WinBuild.160101.0800)" />
+    <build:Item Name="Microsoft.UI.Xaml.Markup.Compiler.dll" Version="3.0.0.2501" />
+    <build:Item Name="makepri.exe" Version="10.0.26100.1742 (WinBuild.160101.0800)" />
   </build:Metadata>
 </Package>

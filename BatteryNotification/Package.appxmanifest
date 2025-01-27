@@ -16,7 +16,7 @@
 
   <Properties>
     <DisplayName>BatteryNotification</DisplayName>
-    <PublisherDisplayName>Admin</PublisherDisplayName>
+    <PublisherDisplayName>Khoi Anh Nguyen</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 

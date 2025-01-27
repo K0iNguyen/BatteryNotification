@@ -286,14 +286,14 @@
           }
         }
       },
-      "Microsoft.Windows.SDK.BuildTools/10.0.22621.756": {
+      "Microsoft.Windows.SDK.BuildTools/10.0.26100.1742": {
         "type": "package",
         "build": {
           "buildTransitive/Microsoft.Windows.SDK.BuildTools.props": {},
           "buildTransitive/Microsoft.Windows.SDK.BuildTools.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK/1.6.241114003": {
+      "Microsoft.WindowsAppSDK/1.6.250108002": {
         "type": "package",
         "dependencies": {
           "Microsoft.Web.WebView2": "1.0.2651.64",
@@ -517,524 +517,6 @@
             "assetType": "runtime",
             "rid": "browser"
           }
-        }
-      },
-      "System.Text.Json/9.0.1": {
-        "type": "package",
-        "dependencies": {
-          "System.IO.Pipelines": "9.0.1",
-          "System.Text.Encodings.Web": "9.0.1"
-        },
-        "compile": {
-          "lib/net8.0/System.Text.Json.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/System.Text.Json.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net8.0/System.Text.Json.targets": {}
-        }
-      },
-      "Tmds.DBus/0.9.1": {
-        "type": "package",
-        "dependencies": {
-          "System.Reflection.Emit": "4.7.0",
-          "System.Security.Principal.Windows": "4.7.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/Tmds.DBus.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Tmds.DBus.dll": {
-            "related": ".xml"
-          }
-        }
-      }
-    },
-    "net8.0-windows10.0.19041/win-arm64": {
-      "Microsoft.Extensions.Configuration/9.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "9.0.1",
-          "Microsoft.Extensions.Primitives": "9.0.1"
-        },
-        "compile": {
-          "lib/net8.0/Microsoft.Extensions.Configuration.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/Microsoft.Extensions.Configuration.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net8.0/_._": {}
-        }
-      },
-      "Microsoft.Extensions.Configuration.Abstractions/9.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Primitives": "9.0.1"
-        },
-        "compile": {
-          "lib/net8.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net8.0/_._": {}
-        }
-      },
-      "Microsoft.Extensions.Configuration.Binder/9.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "9.0.1"
-        },
-        "compile": {
-          "lib/net8.0/Microsoft.Extensions.Configuration.Binder.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/Microsoft.Extensions.Configuration.Binder.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "buildTransitive/netstandard2.0/Microsoft.Extensions.Configuration.Binder.targets": {}
-        }
-      },
-      "Microsoft.Extensions.DependencyInjection/9.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.1"
-        },
-        "compile": {
-          "lib/net8.0/Microsoft.Extensions.DependencyInjection.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/Microsoft.Extensions.DependencyInjection.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net8.0/_._": {}
-        }
-      },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.1": {
-        "type": "package",
-        "compile": {
-          "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net8.0/_._": {}
-        }
-      },
-      "Microsoft.Extensions.Logging/9.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.DependencyInjection": "9.0.1",
-          "Microsoft.Extensions.Logging.Abstractions": "9.0.1",
-          "Microsoft.Extensions.Options": "9.0.1"
-        },
-        "compile": {
-          "lib/net8.0/Microsoft.Extensions.Logging.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/Microsoft.Extensions.Logging.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net8.0/_._": {}
-        }
-      },
-      "Microsoft.Extensions.Logging.Abstractions/9.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.1",
-          "System.Diagnostics.DiagnosticSource": "9.0.1"
-        },
-        "compile": {
-          "lib/net8.0/Microsoft.Extensions.Logging.Abstractions.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/Microsoft.Extensions.Logging.Abstractions.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net8.0/Microsoft.Extensions.Logging.Abstractions.targets": {}
-        }
-      },
-      "Microsoft.Extensions.Logging.Configuration/9.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Configuration": "9.0.1",
-          "Microsoft.Extensions.Configuration.Abstractions": "9.0.1",
-          "Microsoft.Extensions.Configuration.Binder": "9.0.1",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.1",
-          "Microsoft.Extensions.Logging": "9.0.1",
-          "Microsoft.Extensions.Logging.Abstractions": "9.0.1",
-          "Microsoft.Extensions.Options": "9.0.1",
-          "Microsoft.Extensions.Options.ConfigurationExtensions": "9.0.1"
-        },
-        "compile": {
-          "lib/net8.0/Microsoft.Extensions.Logging.Configuration.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/Microsoft.Extensions.Logging.Configuration.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net8.0/_._": {}
-        }
-      },
-      "Microsoft.Extensions.Logging.Console/9.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.1",
-          "Microsoft.Extensions.Logging": "9.0.1",
-          "Microsoft.Extensions.Logging.Abstractions": "9.0.1",
-          "Microsoft.Extensions.Logging.Configuration": "9.0.1",
-          "Microsoft.Extensions.Options": "9.0.1",
-          "System.Text.Json": "9.0.1"
-        },
-        "compile": {
-          "lib/net8.0/Microsoft.Extensions.Logging.Console.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/Microsoft.Extensions.Logging.Console.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net8.0/_._": {}
-        }
-      },
-      "Microsoft.Extensions.Logging.Debug/9.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.1",
-          "Microsoft.Extensions.Logging": "9.0.1",
-          "Microsoft.Extensions.Logging.Abstractions": "9.0.1"
-        },
-        "compile": {
-          "lib/net8.0/Microsoft.Extensions.Logging.Debug.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/Microsoft.Extensions.Logging.Debug.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net8.0/_._": {}
-        }
-      },
-      "Microsoft.Extensions.Options/9.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.1",
-          "Microsoft.Extensions.Primitives": "9.0.1"
-        },
-        "compile": {
-          "lib/net8.0/Microsoft.Extensions.Options.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/Microsoft.Extensions.Options.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net8.0/Microsoft.Extensions.Options.targets": {}
-        }
-      },
-      "Microsoft.Extensions.Options.ConfigurationExtensions/9.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "9.0.1",
-          "Microsoft.Extensions.Configuration.Binder": "9.0.1",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.1",
-          "Microsoft.Extensions.Options": "9.0.1",
-          "Microsoft.Extensions.Primitives": "9.0.1"
-        },
-        "compile": {
-          "lib/net8.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net8.0/_._": {}
-        }
-      },
-      "Microsoft.Extensions.Primitives/9.0.1": {
-        "type": "package",
-        "compile": {
-          "lib/net8.0/Microsoft.Extensions.Primitives.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/Microsoft.Extensions.Primitives.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net8.0/_._": {}
-        }
-      },
-      "Microsoft.Web.WebView2/1.0.2651.64": {
-        "type": "package",
-        "native": {
-          "runtimes/win-arm64/native/WebView2Loader.dll": {}
-        },
-        "build": {
-          "build/Microsoft.Web.WebView2.targets": {}
-        }
-      },
-      "Microsoft.Windows.SDK.BuildTools/10.0.22621.756": {
-        "type": "package",
-        "build": {
-          "buildTransitive/Microsoft.Windows.SDK.BuildTools.props": {},
-          "buildTransitive/Microsoft.Windows.SDK.BuildTools.targets": {}
-        }
-      },
-      "Microsoft.WindowsAppSDK/1.6.241114003": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Web.WebView2": "1.0.2651.64",
-          "Microsoft.Windows.SDK.BuildTools": "10.0.22621.756"
-        },
-        "compile": {
-          "lib/net6.0-windows10.0.18362.0/Microsoft.InteractiveExperiences.Projection.dll": {
-            "related": ".xml"
-          },
-          "lib/net6.0-windows10.0.18362.0/Microsoft.WinUI.dll": {
-            "related": ".xml"
-          },
-          "lib/net6.0-windows10.0.18362.0/Microsoft.Windows.AppLifecycle.Projection.dll": {
-            "related": ".xml"
-          },
-          "lib/net6.0-windows10.0.18362.0/Microsoft.Windows.AppNotifications.Builder.Projection.dll": {
-            "related": ".xml"
-          },
-          "lib/net6.0-windows10.0.18362.0/Microsoft.Windows.AppNotifications.Projection.dll": {
-            "related": ".xml"
-          },
-          "lib/net6.0-windows10.0.18362.0/Microsoft.Windows.ApplicationModel.DynamicDependency.Projection.dll": {
-            "related": ".xml"
-          },
-          "lib/net6.0-windows10.0.18362.0/Microsoft.Windows.ApplicationModel.Resources.Projection.dll": {
-            "related": ".xml"
-          },
-          "lib/net6.0-windows10.0.18362.0/Microsoft.Windows.ApplicationModel.WindowsAppRuntime.Projection.dll": {
-            "related": ".xml"
-          },
-          "lib/net6.0-windows10.0.18362.0/Microsoft.Windows.Management.Deployment.Projection.dll": {
-            "related": ".xml"
-          },
-          "lib/net6.0-windows10.0.18362.0/Microsoft.Windows.PushNotifications.Projection.dll": {
-            "related": ".xml"
-          },
-          "lib/net6.0-windows10.0.18362.0/Microsoft.Windows.Security.AccessControl.Projection.dll": {
-            "related": ".xml"
-          },
-          "lib/net6.0-windows10.0.18362.0/Microsoft.Windows.Storage.Projection.dll": {
-            "related": ".xml"
-          },
-          "lib/net6.0-windows10.0.18362.0/Microsoft.Windows.System.Power.Projection.dll": {
-            "related": ".xml"
-          },
-          "lib/net6.0-windows10.0.18362.0/Microsoft.Windows.System.Projection.dll": {
-            "related": ".xml"
-          },
-          "lib/net6.0-windows10.0.18362.0/Microsoft.Windows.Widgets.Projection.dll": {
-            "related": ".xml"
-          },
-          "lib/net6.0-windows10.0.18362.0/Microsoft.WindowsAppRuntime.Bootstrap.Net.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0-windows10.0.18362.0/Microsoft.InteractiveExperiences.Projection.dll": {
-            "related": ".xml"
-          },
-          "lib/net6.0-windows10.0.18362.0/Microsoft.WinUI.dll": {
-            "related": ".xml"
-          },
-          "lib/net6.0-windows10.0.18362.0/Microsoft.Windows.AppLifecycle.Projection.dll": {
-            "related": ".xml"
-          },
-          "lib/net6.0-windows10.0.18362.0/Microsoft.Windows.AppNotifications.Builder.Projection.dll": {
-            "related": ".xml"
-          },
-          "lib/net6.0-windows10.0.18362.0/Microsoft.Windows.AppNotifications.Projection.dll": {
-            "related": ".xml"
-          },
-          "lib/net6.0-windows10.0.18362.0/Microsoft.Windows.ApplicationModel.DynamicDependency.Projection.dll": {
-            "related": ".xml"
-          },
-          "lib/net6.0-windows10.0.18362.0/Microsoft.Windows.ApplicationModel.Resources.Projection.dll": {
-            "related": ".xml"
-          },
-          "lib/net6.0-windows10.0.18362.0/Microsoft.Windows.ApplicationModel.WindowsAppRuntime.Projection.dll": {
-            "related": ".xml"
-          },
-          "lib/net6.0-windows10.0.18362.0/Microsoft.Windows.Management.Deployment.Projection.dll": {
-            "related": ".xml"
-          },
-          "lib/net6.0-windows10.0.18362.0/Microsoft.Windows.PushNotifications.Projection.dll": {
-            "related": ".xml"
-          },
-          "lib/net6.0-windows10.0.18362.0/Microsoft.Windows.Security.AccessControl.Projection.dll": {
-            "related": ".xml"
-          },
-          "lib/net6.0-windows10.0.18362.0/Microsoft.Windows.Storage.Projection.dll": {
-            "related": ".xml"
-          },
-          "lib/net6.0-windows10.0.18362.0/Microsoft.Windows.System.Power.Projection.dll": {
-            "related": ".xml"
-          },
-          "lib/net6.0-windows10.0.18362.0/Microsoft.Windows.System.Projection.dll": {
-            "related": ".xml"
-          },
-          "lib/net6.0-windows10.0.18362.0/Microsoft.Windows.Widgets.Projection.dll": {
-            "related": ".xml"
-          },
-          "lib/net6.0-windows10.0.18362.0/Microsoft.WindowsAppRuntime.Bootstrap.Net.dll": {}
-        },
-        "native": {
-          "runtimes/win-arm64/native/Microsoft.WindowsAppRuntime.Bootstrap.dll": {}
-        },
-        "build": {
-          "buildTransitive/Microsoft.WindowsAppSDK.props": {},
-          "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
-        }
-      },
-      "rbnswartz.LinuxIntegration.Notifications/0.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Tmds.DBus": "0.9.1"
-        },
-        "compile": {
-          "lib/netcoreapp3.1/rbnswartz.LinuxIntegration.Notifications.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/rbnswartz.LinuxIntegration.Notifications.dll": {}
-        }
-      },
-      "System.Diagnostics.DiagnosticSource/9.0.1": {
-        "type": "package",
-        "compile": {
-          "lib/net8.0/System.Diagnostics.DiagnosticSource.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/System.Diagnostics.DiagnosticSource.dll": {
-            "related": ".xml"
-          }
-        },
-        "contentFiles": {
-          "contentFiles/any/any/_._": {
-            "buildAction": "None",
-            "codeLanguage": "any",
-            "copyToOutput": false
-          }
-        },
-        "build": {
-          "buildTransitive/net8.0/_._": {}
-        }
-      },
-      "System.IO.Pipelines/9.0.1": {
-        "type": "package",
-        "compile": {
-          "lib/net8.0/System.IO.Pipelines.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/System.IO.Pipelines.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net8.0/_._": {}
-        }
-      },
-      "System.Reflection.Emit/4.7.0": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.0/_._": {}
-        }
-      },
-      "System.Security.Principal.Windows/4.7.0": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp3.0/System.Security.Principal.Windows.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "runtimes/win/lib/netcoreapp2.1/System.Security.Principal.Windows.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "System.Text.Encodings.Web/9.0.1": {
-        "type": "package",
-        "compile": {
-          "lib/net8.0/System.Text.Encodings.Web.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/System.Text.Encodings.Web.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net8.0/_._": {}
         }
       },
       "System.Text.Json/9.0.1": {
@@ -1349,14 +831,14 @@
           "build/Microsoft.Web.WebView2.targets": {}
         }
       },
-      "Microsoft.Windows.SDK.BuildTools/10.0.22621.756": {
+      "Microsoft.Windows.SDK.BuildTools/10.0.26100.1742": {
         "type": "package",
         "build": {
           "buildTransitive/Microsoft.Windows.SDK.BuildTools.props": {},
           "buildTransitive/Microsoft.Windows.SDK.BuildTools.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK/1.6.241114003": {
+      "Microsoft.WindowsAppSDK/1.6.250108002": {
         "type": "package",
         "dependencies": {
           "Microsoft.Web.WebView2": "1.0.2651.64",
@@ -1867,14 +1349,14 @@
           "build/Microsoft.Web.WebView2.targets": {}
         }
       },
-      "Microsoft.Windows.SDK.BuildTools/10.0.22621.756": {
+      "Microsoft.Windows.SDK.BuildTools/10.0.26100.1742": {
         "type": "package",
         "build": {
           "buildTransitive/Microsoft.Windows.SDK.BuildTools.props": {},
           "buildTransitive/Microsoft.Windows.SDK.BuildTools.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK/1.6.241114003": {
+      "Microsoft.WindowsAppSDK/1.6.250108002": {
         "type": "package",
         "dependencies": {
           "Microsoft.Web.WebView2": "1.0.2651.64",
@@ -2646,203 +2128,207 @@
         "tools/wv2winrt/zh-Hant/System.CommandLine.resources.dll"
       ]
     },
-    "Microsoft.Windows.SDK.BuildTools/10.0.22621.756": {
-      "sha512": "7ZL2sFSioYm1Ry067Kw1hg0SCcW5kuVezC2SwjGbcPE61Nn+gTbH86T73G3LcEOVj0S3IZzNuE/29gZvOLS7VA==",
+    "Microsoft.Windows.SDK.BuildTools/10.0.26100.1742": {
+      "sha512": "ypcHjr4KEi6xQhgClnbXoANHcyyX/QsC4Rky4igs6M4GiDa+weegPo8JuV/VMxqrZCV4zlqDsp2krgkN7ReAAg==",
       "type": "package",
-      "path": "microsoft.windows.sdk.buildtools/10.0.22621.756",
+      "path": "microsoft.windows.sdk.buildtools/10.0.26100.1742",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "bin/10.0.22621.0/arm/AccChecker/Microsoft.Diagnostics.Tracing.EventSource.dll",
-        "bin/10.0.22621.0/arm/DeployUtil.exe",
-        "bin/10.0.22621.0/arm64/AccChecker/Microsoft.Diagnostics.Tracing.EventSource.dll",
-        "bin/10.0.22621.0/arm64/ComparePackage.exe",
-        "bin/10.0.22621.0/arm64/DeployUtil.exe",
-        "bin/10.0.22621.0/arm64/MakeCert.exe",
-        "bin/10.0.22621.0/arm64/Microsoft.ComparePackage.Lib.dll",
-        "bin/10.0.22621.0/arm64/Microsoft.Diagnostics.Tracing.EventSource.dll",
-        "bin/10.0.22621.0/arm64/Microsoft.PackageEditor.Lib.dll",
-        "bin/10.0.22621.0/arm64/Microsoft.Tools.Connectivity.dll",
-        "bin/10.0.22621.0/arm64/Microsoft.Tools.Deploy.dll",
-        "bin/10.0.22621.0/arm64/Microsoft.Windows.Build.Appx.AppxPackaging.dll.manifest",
-        "bin/10.0.22621.0/arm64/Microsoft.Windows.Build.Appx.AppxSip.dll.manifest",
-        "bin/10.0.22621.0/arm64/Microsoft.Windows.Build.Appx.OpcServices.dll.manifest",
-        "bin/10.0.22621.0/arm64/Microsoft.Windows.Build.Signing.mssign32.dll.manifest",
-        "bin/10.0.22621.0/arm64/Microsoft.Windows.Build.Signing.wintrust.dll.manifest",
-        "bin/10.0.22621.0/arm64/PackageEditor.exe",
-        "bin/10.0.22621.0/arm64/ServicingCommon.dll",
-        "bin/10.0.22621.0/arm64/SirepClient.assembly.manifest",
-        "bin/10.0.22621.0/arm64/SirepClient.dll",
-        "bin/10.0.22621.0/arm64/SirepInterop.dll",
-        "bin/10.0.22621.0/arm64/SshClient.dll",
-        "bin/10.0.22621.0/arm64/WinAppDeployCmd.exe",
-        "bin/10.0.22621.0/arm64/WinAppDeployCommon.dll",
-        "bin/10.0.22621.0/arm64/appxpackaging.dll",
-        "bin/10.0.22621.0/arm64/appxsip.dll",
-        "bin/10.0.22621.0/arm64/en-US/AppxPackaging.dll.mui",
-        "bin/10.0.22621.0/arm64/en/Microsoft.Tools.Deploy.resources.dll",
-        "bin/10.0.22621.0/arm64/en/WinAppDeployCmd.resources.dll",
-        "bin/10.0.22621.0/arm64/ipoverusb.discoverpartners.dll",
-        "bin/10.0.22621.0/arm64/makeappx.exe",
-        "bin/10.0.22621.0/arm64/makecat.exe",
-        "bin/10.0.22621.0/arm64/makecat.exe.manifest",
-        "bin/10.0.22621.0/arm64/makepri.exe",
-        "bin/10.0.22621.0/arm64/mc.exe",
-        "bin/10.0.22621.0/arm64/mdmerge.exe",
-        "bin/10.0.22621.0/arm64/midl.exe",
-        "bin/10.0.22621.0/arm64/midlc.exe",
-        "bin/10.0.22621.0/arm64/midlrt.exe",
-        "bin/10.0.22621.0/arm64/midlrtmd.dll",
-        "bin/10.0.22621.0/arm64/mrmsupport.dll",
-        "bin/10.0.22621.0/arm64/msisip.dll",
-        "bin/10.0.22621.0/arm64/mssign32.dll",
-        "bin/10.0.22621.0/arm64/mt.exe",
-        "bin/10.0.22621.0/arm64/mt.exe.config",
-        "bin/10.0.22621.0/arm64/opcservices.dll",
-        "bin/10.0.22621.0/arm64/rc.exe",
-        "bin/10.0.22621.0/arm64/rcdll.dll",
-        "bin/10.0.22621.0/arm64/signtool.exe",
-        "bin/10.0.22621.0/arm64/signtool.exe.manifest",
-        "bin/10.0.22621.0/arm64/tracewpp.exe",
-        "bin/10.0.22621.0/arm64/uuidgen.exe",
-        "bin/10.0.22621.0/arm64/winmdidl.exe",
-        "bin/10.0.22621.0/arm64/wintrust.dll",
-        "bin/10.0.22621.0/arm64/wintrust.dll.ini",
-        "bin/10.0.22621.0/x64/AccChecker/Microsoft.Diagnostics.Tracing.EventSource.dll",
-        "bin/10.0.22621.0/x64/ComparePackage.exe",
-        "bin/10.0.22621.0/x64/DeployUtil.exe",
-        "bin/10.0.22621.0/x64/MakeCert.exe",
-        "bin/10.0.22621.0/x64/Microsoft.ComparePackage.Lib.dll",
-        "bin/10.0.22621.0/x64/Microsoft.Diagnostics.Tracing.EventSource.dll",
-        "bin/10.0.22621.0/x64/Microsoft.PackageEditor.Lib.dll",
-        "bin/10.0.22621.0/x64/Microsoft.Tools.Connectivity.dll",
-        "bin/10.0.22621.0/x64/Microsoft.Tools.Deploy.dll",
-        "bin/10.0.22621.0/x64/Microsoft.Windows.Build.Appx.AppxPackaging.dll.manifest",
-        "bin/10.0.22621.0/x64/Microsoft.Windows.Build.Appx.AppxSip.dll.manifest",
-        "bin/10.0.22621.0/x64/Microsoft.Windows.Build.Appx.OpcServices.dll.manifest",
-        "bin/10.0.22621.0/x64/Microsoft.Windows.Build.Signing.mssign32.dll.manifest",
-        "bin/10.0.22621.0/x64/Microsoft.Windows.Build.Signing.wintrust.dll.manifest",
-        "bin/10.0.22621.0/x64/PackageEditor.exe",
-        "bin/10.0.22621.0/x64/ServicingCommon.dll",
-        "bin/10.0.22621.0/x64/SirepClient.assembly.manifest",
-        "bin/10.0.22621.0/x64/SirepClient.dll",
-        "bin/10.0.22621.0/x64/SirepInterop.dll",
-        "bin/10.0.22621.0/x64/SshClient.dll",
-        "bin/10.0.22621.0/x64/WinAppDeployCmd.exe",
-        "bin/10.0.22621.0/x64/WinAppDeployCommon.dll",
-        "bin/10.0.22621.0/x64/appxpackaging.dll",
-        "bin/10.0.22621.0/x64/appxsip.dll",
-        "bin/10.0.22621.0/x64/en-US/AppxPackaging.dll.mui",
-        "bin/10.0.22621.0/x64/en/Microsoft.Tools.Deploy.resources.dll",
-        "bin/10.0.22621.0/x64/en/WinAppDeployCmd.resources.dll",
-        "bin/10.0.22621.0/x64/ipoverusb.discoverpartners.dll",
-        "bin/10.0.22621.0/x64/makeappx.exe",
-        "bin/10.0.22621.0/x64/makecat.exe",
-        "bin/10.0.22621.0/x64/makecat.exe.manifest",
-        "bin/10.0.22621.0/x64/makepri.exe",
-        "bin/10.0.22621.0/x64/mc.exe",
-        "bin/10.0.22621.0/x64/mdmerge.exe",
-        "bin/10.0.22621.0/x64/midl.exe",
-        "bin/10.0.22621.0/x64/midlc.exe",
-        "bin/10.0.22621.0/x64/midlrt.exe",
-        "bin/10.0.22621.0/x64/midlrtmd.dll",
-        "bin/10.0.22621.0/x64/mrmsupport.dll",
-        "bin/10.0.22621.0/x64/msisip.dll",
-        "bin/10.0.22621.0/x64/mssign32.dll",
-        "bin/10.0.22621.0/x64/mt.exe",
-        "bin/10.0.22621.0/x64/mt.exe.config",
-        "bin/10.0.22621.0/x64/opcservices.dll",
-        "bin/10.0.22621.0/x64/rc.exe",
-        "bin/10.0.22621.0/x64/rcdll.dll",
-        "bin/10.0.22621.0/x64/signtool.exe",
-        "bin/10.0.22621.0/x64/signtool.exe.manifest",
-        "bin/10.0.22621.0/x64/tracewpp.exe",
-        "bin/10.0.22621.0/x64/uuidgen.exe",
-        "bin/10.0.22621.0/x64/winmdidl.exe",
-        "bin/10.0.22621.0/x64/wintrust.dll",
-        "bin/10.0.22621.0/x64/wintrust.dll.ini",
-        "bin/10.0.22621.0/x86/AccChecker/Microsoft.Diagnostics.Tracing.EventSource.dll",
-        "bin/10.0.22621.0/x86/ComparePackage.exe",
-        "bin/10.0.22621.0/x86/DeployUtil.exe",
-        "bin/10.0.22621.0/x86/MakeCert.exe",
-        "bin/10.0.22621.0/x86/Microsoft.ComparePackage.Lib.dll",
-        "bin/10.0.22621.0/x86/Microsoft.Diagnostics.Tracing.EventSource.dll",
-        "bin/10.0.22621.0/x86/Microsoft.PackageEditor.Lib.dll",
-        "bin/10.0.22621.0/x86/Microsoft.Tools.Connectivity.dll",
-        "bin/10.0.22621.0/x86/Microsoft.Tools.Deploy.dll",
-        "bin/10.0.22621.0/x86/Microsoft.Windows.Build.Appx.AppxPackaging.dll.manifest",
-        "bin/10.0.22621.0/x86/Microsoft.Windows.Build.Appx.AppxSip.dll.manifest",
-        "bin/10.0.22621.0/x86/Microsoft.Windows.Build.Appx.OpcServices.dll.manifest",
-        "bin/10.0.22621.0/x86/Microsoft.Windows.Build.Signing.mssign32.dll.manifest",
-        "bin/10.0.22621.0/x86/Microsoft.Windows.Build.Signing.wintrust.dll.manifest",
-        "bin/10.0.22621.0/x86/PackageEditor.exe",
-        "bin/10.0.22621.0/x86/ServicingCommon.dll",
-        "bin/10.0.22621.0/x86/SirepClient.assembly.manifest",
-        "bin/10.0.22621.0/x86/SirepClient.dll",
-        "bin/10.0.22621.0/x86/SirepInterop.dll",
-        "bin/10.0.22621.0/x86/SshClient.dll",
-        "bin/10.0.22621.0/x86/WinAppDeployCmd.exe",
-        "bin/10.0.22621.0/x86/WinAppDeployCommon.dll",
-        "bin/10.0.22621.0/x86/appxpackaging.dll",
-        "bin/10.0.22621.0/x86/appxsip.dll",
-        "bin/10.0.22621.0/x86/en-US/AppxPackaging.dll.mui",
-        "bin/10.0.22621.0/x86/en/Microsoft.Tools.Deploy.resources.dll",
-        "bin/10.0.22621.0/x86/en/WinAppDeployCmd.resources.dll",
-        "bin/10.0.22621.0/x86/ipoverusb.discoverpartners.dll",
-        "bin/10.0.22621.0/x86/makeappx.exe",
-        "bin/10.0.22621.0/x86/makecat.exe",
-        "bin/10.0.22621.0/x86/makecat.exe.manifest",
-        "bin/10.0.22621.0/x86/makepri.exe",
-        "bin/10.0.22621.0/x86/mc.exe",
-        "bin/10.0.22621.0/x86/mdmerge.exe",
-        "bin/10.0.22621.0/x86/midl.exe",
-        "bin/10.0.22621.0/x86/midlc.exe",
-        "bin/10.0.22621.0/x86/midlrt.exe",
-        "bin/10.0.22621.0/x86/midlrtmd.dll",
-        "bin/10.0.22621.0/x86/mrmsupport.dll",
-        "bin/10.0.22621.0/x86/msisip.dll",
-        "bin/10.0.22621.0/x86/mssign32.dll",
-        "bin/10.0.22621.0/x86/mt.exe",
-        "bin/10.0.22621.0/x86/mt.exe.config",
-        "bin/10.0.22621.0/x86/opcservices.dll",
-        "bin/10.0.22621.0/x86/rc.exe",
-        "bin/10.0.22621.0/x86/rcdll.dll",
-        "bin/10.0.22621.0/x86/signtool.exe",
-        "bin/10.0.22621.0/x86/signtool.exe.manifest",
-        "bin/10.0.22621.0/x86/tracewpp.exe",
-        "bin/10.0.22621.0/x86/uuidgen.exe",
-        "bin/10.0.22621.0/x86/winmdidl.exe",
-        "bin/10.0.22621.0/x86/wintrust.dll",
-        "bin/10.0.22621.0/x86/wintrust.dll.ini",
+        "bin/10.0.26100.0/arm64/AccChecker/Microsoft.Diagnostics.Tracing.EventSource.dll",
+        "bin/10.0.26100.0/arm64/ComparePackage.exe",
+        "bin/10.0.26100.0/arm64/DeployUtil.exe",
+        "bin/10.0.26100.0/arm64/MakeCert.exe",
+        "bin/10.0.26100.0/arm64/Microsoft.ComparePackage.Lib.dll",
+        "bin/10.0.26100.0/arm64/Microsoft.Diagnostics.Tracing.EventSource.dll",
+        "bin/10.0.26100.0/arm64/Microsoft.PackageEditor.Lib.dll",
+        "bin/10.0.26100.0/arm64/Microsoft.Tools.Connectivity.dll",
+        "bin/10.0.26100.0/arm64/Microsoft.Tools.Deploy.dll",
+        "bin/10.0.26100.0/arm64/Microsoft.Windows.Build.Appx.AppxPackaging.dll.manifest",
+        "bin/10.0.26100.0/arm64/Microsoft.Windows.Build.Appx.AppxSip.dll.manifest",
+        "bin/10.0.26100.0/arm64/Microsoft.Windows.Build.Appx.OpcServices.dll.manifest",
+        "bin/10.0.26100.0/arm64/Microsoft.Windows.Build.Signing.mssign32.dll.manifest",
+        "bin/10.0.26100.0/arm64/Microsoft.Windows.Build.Signing.wintrust.dll.manifest",
+        "bin/10.0.26100.0/arm64/PackageEditor.exe",
+        "bin/10.0.26100.0/arm64/ServicingCommon.dll",
+        "bin/10.0.26100.0/arm64/SirepClient.assembly.manifest",
+        "bin/10.0.26100.0/arm64/SirepClient.dll",
+        "bin/10.0.26100.0/arm64/SirepInterop.dll",
+        "bin/10.0.26100.0/arm64/SshClient.dll",
+        "bin/10.0.26100.0/arm64/WinAppDeployCmd.exe",
+        "bin/10.0.26100.0/arm64/WinAppDeployCommon.dll",
+        "bin/10.0.26100.0/arm64/appxpackaging.dll",
+        "bin/10.0.26100.0/arm64/appxsip.dll",
+        "bin/10.0.26100.0/arm64/en-US/AppxPackaging.dll.mui",
+        "bin/10.0.26100.0/arm64/en/Microsoft.Tools.Deploy.resources.dll",
+        "bin/10.0.26100.0/arm64/en/WinAppDeployCmd.resources.dll",
+        "bin/10.0.26100.0/arm64/ipoverusb.discoverpartners.dll",
+        "bin/10.0.26100.0/arm64/makeappx.exe",
+        "bin/10.0.26100.0/arm64/makecat.exe",
+        "bin/10.0.26100.0/arm64/makecat.exe.manifest",
+        "bin/10.0.26100.0/arm64/makepri.exe",
+        "bin/10.0.26100.0/arm64/mc.exe",
+        "bin/10.0.26100.0/arm64/mdmerge.exe",
+        "bin/10.0.26100.0/arm64/midl.exe",
+        "bin/10.0.26100.0/arm64/midlc.exe",
+        "bin/10.0.26100.0/arm64/midlrt.exe",
+        "bin/10.0.26100.0/arm64/midlrtmd.dll",
+        "bin/10.0.26100.0/arm64/mrmsupport.dll",
+        "bin/10.0.26100.0/arm64/msisip.dll",
+        "bin/10.0.26100.0/arm64/mssign32.dll",
+        "bin/10.0.26100.0/arm64/mt.exe",
+        "bin/10.0.26100.0/arm64/mt.exe.config",
+        "bin/10.0.26100.0/arm64/opcservices.dll",
+        "bin/10.0.26100.0/arm64/rc.exe",
+        "bin/10.0.26100.0/arm64/rcdll.dll",
+        "bin/10.0.26100.0/arm64/signtool.exe",
+        "bin/10.0.26100.0/arm64/signtool.exe.manifest",
+        "bin/10.0.26100.0/arm64/tracewpp.exe",
+        "bin/10.0.26100.0/arm64/uuidgen.exe",
+        "bin/10.0.26100.0/arm64/veiid.exe",
+        "bin/10.0.26100.0/arm64/winmdidl.exe",
+        "bin/10.0.26100.0/arm64/wintrust.dll",
+        "bin/10.0.26100.0/arm64/wintrust.dll.ini",
+        "bin/10.0.26100.0/x64/AccChecker/Microsoft.Diagnostics.Tracing.EventSource.dll",
+        "bin/10.0.26100.0/x64/ComparePackage.exe",
+        "bin/10.0.26100.0/x64/DeployUtil.exe",
+        "bin/10.0.26100.0/x64/MakeCert.exe",
+        "bin/10.0.26100.0/x64/Microsoft.ComparePackage.Lib.dll",
+        "bin/10.0.26100.0/x64/Microsoft.Diagnostics.Tracing.EventSource.dll",
+        "bin/10.0.26100.0/x64/Microsoft.PackageEditor.Lib.dll",
+        "bin/10.0.26100.0/x64/Microsoft.Tools.Connectivity.dll",
+        "bin/10.0.26100.0/x64/Microsoft.Tools.Deploy.dll",
+        "bin/10.0.26100.0/x64/Microsoft.Windows.Build.Appx.AppxPackaging.dll.manifest",
+        "bin/10.0.26100.0/x64/Microsoft.Windows.Build.Appx.AppxSip.dll.manifest",
+        "bin/10.0.26100.0/x64/Microsoft.Windows.Build.Appx.OpcServices.dll.manifest",
+        "bin/10.0.26100.0/x64/Microsoft.Windows.Build.Signing.mssign32.dll.manifest",
+        "bin/10.0.26100.0/x64/Microsoft.Windows.Build.Signing.wintrust.dll.manifest",
+        "bin/10.0.26100.0/x64/PackageEditor.exe",
+        "bin/10.0.26100.0/x64/ServicingCommon.dll",
+        "bin/10.0.26100.0/x64/SirepClient.assembly.manifest",
+        "bin/10.0.26100.0/x64/SirepClient.dll",
+        "bin/10.0.26100.0/x64/SirepInterop.dll",
+        "bin/10.0.26100.0/x64/SshClient.dll",
+        "bin/10.0.26100.0/x64/WinAppDeployCmd.exe",
+        "bin/10.0.26100.0/x64/WinAppDeployCommon.dll",
+        "bin/10.0.26100.0/x64/appxpackaging.dll",
+        "bin/10.0.26100.0/x64/appxsip.dll",
+        "bin/10.0.26100.0/x64/en-US/AppxPackaging.dll.mui",
+        "bin/10.0.26100.0/x64/en/Microsoft.Tools.Deploy.resources.dll",
+        "bin/10.0.26100.0/x64/en/WinAppDeployCmd.resources.dll",
+        "bin/10.0.26100.0/x64/ipoverusb.discoverpartners.dll",
+        "bin/10.0.26100.0/x64/makeappx.exe",
+        "bin/10.0.26100.0/x64/makecat.exe",
+        "bin/10.0.26100.0/x64/makecat.exe.manifest",
+        "bin/10.0.26100.0/x64/makepri.exe",
+        "bin/10.0.26100.0/x64/mc.exe",
+        "bin/10.0.26100.0/x64/mdmerge.exe",
+        "bin/10.0.26100.0/x64/midl.exe",
+        "bin/10.0.26100.0/x64/midlc.exe",
+        "bin/10.0.26100.0/x64/midlrt.exe",
+        "bin/10.0.26100.0/x64/midlrtmd.dll",
+        "bin/10.0.26100.0/x64/mrmsupport.dll",
+        "bin/10.0.26100.0/x64/msisip.dll",
+        "bin/10.0.26100.0/x64/mssign32.dll",
+        "bin/10.0.26100.0/x64/mt.exe",
+        "bin/10.0.26100.0/x64/mt.exe.config",
+        "bin/10.0.26100.0/x64/opcservices.dll",
+        "bin/10.0.26100.0/x64/rc.exe",
+        "bin/10.0.26100.0/x64/rcdll.dll",
+        "bin/10.0.26100.0/x64/signtool.exe",
+        "bin/10.0.26100.0/x64/signtool.exe.manifest",
+        "bin/10.0.26100.0/x64/tracewpp.exe",
+        "bin/10.0.26100.0/x64/uuidgen.exe",
+        "bin/10.0.26100.0/x64/veiid.exe",
+        "bin/10.0.26100.0/x64/winmdidl.exe",
+        "bin/10.0.26100.0/x64/wintrust.dll",
+        "bin/10.0.26100.0/x64/wintrust.dll.ini",
+        "bin/10.0.26100.0/x86/AccChecker/Microsoft.Diagnostics.Tracing.EventSource.dll",
+        "bin/10.0.26100.0/x86/ComparePackage.exe",
+        "bin/10.0.26100.0/x86/DeployUtil.exe",
+        "bin/10.0.26100.0/x86/MakeCert.exe",
+        "bin/10.0.26100.0/x86/Microsoft.ComparePackage.Lib.dll",
+        "bin/10.0.26100.0/x86/Microsoft.Diagnostics.Tracing.EventSource.dll",
+        "bin/10.0.26100.0/x86/Microsoft.PackageEditor.Lib.dll",
+        "bin/10.0.26100.0/x86/Microsoft.Tools.Connectivity.dll",
+        "bin/10.0.26100.0/x86/Microsoft.Tools.Deploy.dll",
+        "bin/10.0.26100.0/x86/Microsoft.Windows.Build.Appx.AppxPackaging.dll.manifest",
+        "bin/10.0.26100.0/x86/Microsoft.Windows.Build.Appx.AppxSip.dll.manifest",
+        "bin/10.0.26100.0/x86/Microsoft.Windows.Build.Appx.OpcServices.dll.manifest",
+        "bin/10.0.26100.0/x86/Microsoft.Windows.Build.Signing.mssign32.dll.manifest",
+        "bin/10.0.26100.0/x86/Microsoft.Windows.Build.Signing.wintrust.dll.manifest",
+        "bin/10.0.26100.0/x86/PackageEditor.exe",
+        "bin/10.0.26100.0/x86/ServicingCommon.dll",
+        "bin/10.0.26100.0/x86/SirepClient.assembly.manifest",
+        "bin/10.0.26100.0/x86/SirepClient.dll",
+        "bin/10.0.26100.0/x86/SirepInterop.dll",
+        "bin/10.0.26100.0/x86/SshClient.dll",
+        "bin/10.0.26100.0/x86/WinAppDeployCmd.exe",
+        "bin/10.0.26100.0/x86/WinAppDeployCommon.dll",
+        "bin/10.0.26100.0/x86/appxpackaging.dll",
+        "bin/10.0.26100.0/x86/appxsip.dll",
+        "bin/10.0.26100.0/x86/en-US/AppxPackaging.dll.mui",
+        "bin/10.0.26100.0/x86/en/Microsoft.Tools.Deploy.resources.dll",
+        "bin/10.0.26100.0/x86/en/WinAppDeployCmd.resources.dll",
+        "bin/10.0.26100.0/x86/ipoverusb.discoverpartners.dll",
+        "bin/10.0.26100.0/x86/makeappx.exe",
+        "bin/10.0.26100.0/x86/makecat.exe",
+        "bin/10.0.26100.0/x86/makecat.exe.manifest",
+        "bin/10.0.26100.0/x86/makepri.exe",
+        "bin/10.0.26100.0/x86/mc.exe",
+        "bin/10.0.26100.0/x86/mdmerge.exe",
+        "bin/10.0.26100.0/x86/midl.exe",
+        "bin/10.0.26100.0/x86/midlc.exe",
+        "bin/10.0.26100.0/x86/midlrt.exe",
+        "bin/10.0.26100.0/x86/midlrtmd.dll",
+        "bin/10.0.26100.0/x86/mrmsupport.dll",
+        "bin/10.0.26100.0/x86/msisip.dll",
+        "bin/10.0.26100.0/x86/mssign32.dll",
+        "bin/10.0.26100.0/x86/mt.exe",
+        "bin/10.0.26100.0/x86/mt.exe.config",
+        "bin/10.0.26100.0/x86/opcservices.dll",
+        "bin/10.0.26100.0/x86/rc.exe",
+        "bin/10.0.26100.0/x86/rcdll.dll",
+        "bin/10.0.26100.0/x86/signtool.exe",
+        "bin/10.0.26100.0/x86/signtool.exe.manifest",
+        "bin/10.0.26100.0/x86/tracewpp.exe",
+        "bin/10.0.26100.0/x86/uuidgen.exe",
+        "bin/10.0.26100.0/x86/winmdidl.exe",
+        "bin/10.0.26100.0/x86/wintrust.dll",
+        "bin/10.0.26100.0/x86/wintrust.dll.ini",
         "build/Microsoft.Windows.SDK.BuildTools.props",
         "build/Microsoft.Windows.SDK.BuildTools.targets",
         "buildTransitive/Microsoft.Windows.SDK.BuildTools.props",
         "buildTransitive/Microsoft.Windows.SDK.BuildTools.targets",
-        "microsoft.windows.sdk.buildtools.10.0.22621.756.nupkg.sha512",
+        "microsoft.windows.sdk.buildtools.10.0.26100.1742.nupkg.sha512",
         "microsoft.windows.sdk.buildtools.nuspec",
-        "schemas/10.0.22621.0/winrt/AppxManifestSchema.xsd",
-        "schemas/10.0.22621.0/winrt/AppxManifestSchema2010_v2.xsd",
-        "schemas/10.0.22621.0/winrt/AppxManifestSchema2013.xsd",
-        "schemas/10.0.22621.0/winrt/FoundationManifestSchema.xsd",
-        "schemas/10.0.22621.0/winrt/FoundationManifestSchema_v2.xsd",
-        "schemas/10.0.22621.0/winrt/UapManifestSchema.xsd",
-        "schemas/10.0.22621.0/winrt/UapManifestSchema_v10.xsd",
-        "schemas/10.0.22621.0/winrt/UapManifestSchema_v11.xsd",
-        "schemas/10.0.22621.0/winrt/UapManifestSchema_v12.xsd",
-        "schemas/10.0.22621.0/winrt/UapManifestSchema_v13.xsd",
-        "schemas/10.0.22621.0/winrt/UapManifestSchema_v2.xsd",
-        "schemas/10.0.22621.0/winrt/UapManifestSchema_v3.xsd",
-        "schemas/10.0.22621.0/winrt/UapManifestSchema_v4.xsd",
-        "schemas/10.0.22621.0/winrt/UapManifestSchema_v5.xsd",
-        "schemas/10.0.22621.0/winrt/UapManifestSchema_v6.xsd",
-        "schemas/10.0.22621.0/winrt/UapManifestSchema_v7.xsd",
-        "schemas/10.0.22621.0/winrt/UapManifestSchema_v8.xsd"
+        "schemas/10.0.26100.0/winrt/AppxManifestSchema.xsd",
+        "schemas/10.0.26100.0/winrt/AppxManifestSchema2010_v2.xsd",
+        "schemas/10.0.26100.0/winrt/AppxManifestSchema2013.xsd",
+        "schemas/10.0.26100.0/winrt/FoundationManifestSchema.xsd",
+        "schemas/10.0.26100.0/winrt/FoundationManifestSchema_v2.xsd",
+        "schemas/10.0.26100.0/winrt/UapManifestSchema.xsd",
+        "schemas/10.0.26100.0/winrt/UapManifestSchema_v10.xsd",
+        "schemas/10.0.26100.0/winrt/UapManifestSchema_v11.xsd",
+        "schemas/10.0.26100.0/winrt/UapManifestSchema_v12.xsd",
+        "schemas/10.0.26100.0/winrt/UapManifestSchema_v13.xsd",
+        "schemas/10.0.26100.0/winrt/UapManifestSchema_v15.xsd",
+        "schemas/10.0.26100.0/winrt/UapManifestSchema_v15a.xsd",
+        "schemas/10.0.26100.0/winrt/UapManifestSchema_v16.xsd",
+        "schemas/10.0.26100.0/winrt/UapManifestSchema_v17.xsd",
+        "schemas/10.0.26100.0/winrt/UapManifestSchema_v2.xsd",
+        "schemas/10.0.26100.0/winrt/UapManifestSchema_v3.xsd",
+        "schemas/10.0.26100.0/winrt/UapManifestSchema_v4.xsd",
+        "schemas/10.0.26100.0/winrt/UapManifestSchema_v5.xsd",
+        "schemas/10.0.26100.0/winrt/UapManifestSchema_v6.xsd",
+        "schemas/10.0.26100.0/winrt/UapManifestSchema_v7.xsd",
+        "schemas/10.0.26100.0/winrt/UapManifestSchema_v8.xsd"
       ]
     },
-    "Microsoft.WindowsAppSDK/1.6.241114003": {
-      "sha512": "5XBNubjJi7+7DDI5lUXR3Jc0/memeFJyP6zmGTGgQcmTTbUf2T6U1f+qwcXHT+2yoXpaDuZCE86/aDLdU30e5A==",
+    "Microsoft.WindowsAppSDK/1.6.250108002": {
+      "sha512": "dOJ3oFeHnehVBAR98lR6YfX0JgDJkrehLqwZQqQE/iZgyye1c1TZu9oj3MBbgWP9xFApWUrb0G49KKnQWEZLtA==",
       "type": "package",
-      "path": "microsoft.windowsappsdk/1.6.241114003",
+      "path": "microsoft.windowsappsdk/1.6.250108002",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -3228,7 +2714,7 @@
         "manifests/Microsoft.InteractiveExperiences.manifest",
         "manifests/Microsoft.WindowsAppSdk.Foundation.manifest",
         "manifests/manifests/Microsoft.WindowsAppSdk.WinUI.manifest",
-        "microsoft.windowsappsdk.1.6.241114003.nupkg.sha512",
+        "microsoft.windowsappsdk.1.6.250108002.nupkg.sha512",
         "microsoft.windowsappsdk.nuspec",
         "runtimes/win-arm64/native/Microsoft.WindowsAppRuntime.Bootstrap.dll",
         "runtimes/win-x64/native/Microsoft.WindowsAppRuntime.Bootstrap.dll",
@@ -3595,8 +3081,8 @@
       "Microsoft.Extensions.Logging >= 9.0.1",
       "Microsoft.Extensions.Logging.Console >= 9.0.1",
       "Microsoft.Extensions.Logging.Debug >= 9.0.1",
-      "Microsoft.Windows.SDK.BuildTools >= 10.0.22621.756",
-      "Microsoft.WindowsAppSDK >= 1.6.241114003",
+      "Microsoft.Windows.SDK.BuildTools >= 10.0.26100.1742",
+      "Microsoft.WindowsAppSDK >= 1.6.250108002",
       "rbnswartz.LinuxIntegration.Notifications >= 0.0.1"
     ]
   },
@@ -3627,6 +3113,7 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
+        "D:\\Projects\\App\\BMS-Manager-App\\ExternalPackage": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -3665,11 +3152,11 @@
           },
           "Microsoft.Windows.SDK.BuildTools": {
             "target": "Package",
-            "version": "[10.0.22621.756, )"
+            "version": "[10.0.26100.1742, )"
           },
           "Microsoft.WindowsAppSDK": {
             "target": "Package",
-            "version": "[1.6.241114003, )"
+            "version": "[1.6.250108002, )"
           },
           "rbnswartz.LinuxIntegration.Notifications": {
             "target": "Package",
@@ -3689,19 +3176,11 @@
         "warn": true,
         "downloadDependencies": [
           {
-            "name": "Microsoft.AspNetCore.App.Runtime.win-arm64",
-            "version": "[8.0.12, 8.0.12]"
-          },
-          {
             "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
             "version": "[8.0.12, 8.0.12]"
           },
           {
             "name": "Microsoft.AspNetCore.App.Runtime.win-x86",
-            "version": "[8.0.12, 8.0.12]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Runtime.win-arm64",
             "version": "[8.0.12, 8.0.12]"
           },
           {
@@ -3714,11 +3193,7 @@
           },
           {
             "name": "Microsoft.Windows.SDK.NET.Ref",
-            "version": "[10.0.19041.41, 10.0.19041.41]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Runtime.win-arm64",
-            "version": "[8.0.12, 8.0.12]"
+            "version": "[10.0.19041.57, 10.0.19041.57]"
           },
           {
             "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
@@ -3741,9 +3216,6 @@
       }
     },
     "runtimes": {
-      "win-arm64": {
-        "#import": []
-      },
       "win-x64": {
         "#import": []
       },

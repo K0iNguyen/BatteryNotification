@@ -5,22 +5,18 @@ using Microsoft.UI.Xaml.Data;
 using Microsoft.UI.Xaml.Input;
 using Microsoft.UI.Xaml.Media;
 using Microsoft.UI.Xaml.Navigation;
+using Microsoft.Windows.AppNotifications;
 using Microsoft.Windows.AppNotifications.Builder;
 using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
-using Windows.Foundation;
-using Windows.Foundation.Collections;
 using Microsoft.Windows.System.Power;
 using rbnswartz.LinuxIntegration.Notifications;
 using System.Threading.Tasks;
-using Microsoft.Windows.AppNotifications;
-using System.Security.Cryptography.X509Certificates;
 using Windows.System;
 using Microsoft.Extensions.Logging;
 using ABI.System.Collections.Generic;
+using System.Threading;
 
 // To learn more about WinUI, the WinUI project structure,
 // and more about our project templates, see: http://aka.ms/winui-project-info.
@@ -32,9 +28,10 @@ namespace BatteryNotification
     /// </summary>
     public sealed partial class MainWindow : Window
     {
+        
         int[] batteryPercentage = [0,0,0,0,0,0,0,0,0,0];
         string cachePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "BatteryNotification\\settingCache.txt");
-
+        bool isNotificationRegistered = false;
         /// <summary>
         /// Debug Logger operation
         /// </summary>
@@ -44,21 +41,62 @@ namespace BatteryNotification
         public MainWindow()
         {
             this.InitializeComponent();
+            this.Title = "Battery Notification";
             AppWindow.Resize(new Windows.Graphics.SizeInt32(650, 250));
             Directory.CreateDirectory(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "BatteryNotification"));
             logger.LogDebug(cachePath);
-            readMemory(cachePath);
+            loadStartup();
+            //readMemory(cachePath);
+            initializedNotification();
             PowerManager.RemainingChargePercentChanged += CheckBatteryPercentage;
+        }
+
+        ~MainWindow()
+        {
+            UnRegisterNotification();
+        }
+
+        public void initializedNotification()
+        {
+            if (!isNotificationRegistered)
+            {
+                AppNotificationManager notificationManager = AppNotificationManager.Default;
+
+                notificationManager.NotificationInvoked += OnNotificationInvoked;
+
+                notificationManager.Register();
+
+                isNotificationRegistered = true;
+            }
+        }
+
+        public void UnRegisterNotification()
+        {
+            if (isNotificationRegistered)
+            {
+                AppNotificationManager.Default.NotificationInvoked -= OnNotificationInvoked;
+                AppNotificationManager.Default.Unregister();
+                isNotificationRegistered = false;
+            }
         }
 
         private void testNotification(object sender, RoutedEventArgs e)
         {
             int batteryCurrentPercentage = getCurrentBatteryPercentage();
-            ThrowNotification(batteryPercentage[0].ToString());
+            logger.LogDebug("The current battery percentage is {batteryCurrentPercentage}", batteryCurrentPercentage);
+            ThrowNotification("0");
             //writeMemory(cachePath);
         }
 
-        public void writeMemory(string cachePath)
+        private void loadStartup()
+        {
+            if (readMemory(cachePath))
+            {
+                loadBatteryPercent();
+            }
+        }
+
+        public bool writeMemory(string cachePath)
         {
             try
             {
@@ -66,10 +104,12 @@ namespace BatteryNotification
                 sw.WriteLine(PercentTextBox.Text);
                 logger.LogDebug("Written to cache file");
                 sw.Close();
+                return true;
             }
             catch (Exception e)
             {
-                    logger.LogDebug("Can't write to cache file");
+                logger.LogDebug("Can't write to cache file");
+                return false;
             }
             finally
             {
@@ -77,7 +117,7 @@ namespace BatteryNotification
             }
         }
 
-        public void readMemory(string cachePath) 
+        public bool readMemory(string cachePath) 
         {
             try
             {
@@ -89,10 +129,12 @@ namespace BatteryNotification
                     PercentTextBox.Text = tempText;
                 }
                 sr.Close();
+                return true;
             }
             catch (Exception e)
             {
                 logger.LogDebug("Can't find cache file");
+                return false;
             }
             finally
             {
@@ -111,29 +153,34 @@ namespace BatteryNotification
             }
         }
 
-        public void getBatteryPercentage(object sender, KeyRoutedEventArgs e)
+        public void getBatteryPercentKeyPressed(object sender, KeyRoutedEventArgs e)
         {
             if (e.Key == (VirtualKey)13)
             {
                 writeMemory(cachePath);
-                string[] stringList = PercentTextBox.Text.Split(',');
-                if (stringList.Length > 10)
+                loadBatteryPercent();
+            }
+        }
+
+        public void loadBatteryPercent()
+        {
+            string[] stringList = PercentTextBox.Text.Split(',');
+            if (stringList.Length > 10)
+            {
+                logger.LogDebug("stringList longer than 10");
+                return;
+            }
+            for (int i = 0; i < stringList.Length; i++)
+            {
+                int singularPercent;
+                if (Int32.TryParse(stringList[i], out singularPercent))
                 {
-                    logger.LogDebug("stringList longer than 10");
-                    return;
+                    batteryPercentage[i] = singularPercent;
+                    logger.LogDebug("Added {singularPercent}", singularPercent);
                 }
-                for (int i = 0; i < stringList.Length; i++)
+                else
                 {
-                    int singularPercent;
-                    if (Int32.TryParse(stringList[i], out singularPercent))
-                    {
-                        batteryPercentage[i] = singularPercent;
-                        logger.LogDebug("Added {singularPercent}", singularPercent);
-                    }
-                    else
-                    {
-                        logger.LogDebug("Can't add value");
-                    }
+                    logger.LogDebug("Can't add value");
                 }
             }
         }
@@ -151,7 +198,7 @@ namespace BatteryNotification
             }
             else if (System.Runtime.InteropServices.RuntimeInformation.OSDescription.Contains("Linux"))
             {
-                logger.LogDebug("System is Linux");
+                logger.LogDebug("System is Windows");
                 bool read = false;
                 int batNUM = 0;
                 while (!read)
@@ -174,7 +221,6 @@ namespace BatteryNotification
                     }//End catch
                 }//End while
             }//End else if
-
             return batteryPercentage;
         }
 
@@ -190,18 +236,20 @@ namespace BatteryNotification
             }
         }
 
+        public void OnNotificationInvoked(object sender, AppNotificationActivatedEventArgs notificationActivatedEventArgs)
+        {
+            logger.LogDebug("Notification Invoked");
+        }
+
         public void ThrowWindowNotification(string batteryPercentage)
         {
             var builder = new AppNotificationBuilder()
-                .AddArgument("conversationId", "9813")
-
                 .AddText("You have reached " + batteryPercentage + "%")
+                .SetScenario(AppNotificationScenario.Urgent);
 
-                .SetAudioUri(new Uri("ms-appx:///Sound.mp3"));
-
-            var notificationManager = AppNotificationManager.Default;
-            notificationManager.Show(builder.BuildNotification());
-
+            AppNotificationManager.Default.Show(builder.BuildNotification());
+        
+            logger.LogDebug("Notification shown");
         }
 
         public async void throwLinuxNotification(string batteryPercentage)

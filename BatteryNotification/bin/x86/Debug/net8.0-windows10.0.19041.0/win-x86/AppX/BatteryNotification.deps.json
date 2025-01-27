@@ -12,12 +12,12 @@
           "Microsoft.Extensions.Logging": "9.0.1",
           "Microsoft.Extensions.Logging.Console": "9.0.1",
           "Microsoft.Extensions.Logging.Debug": "9.0.1",
-          "Microsoft.Windows.SDK.BuildTools": "10.0.22621.756",
-          "Microsoft.WindowsAppSDK": "1.6.241114003",
+          "Microsoft.Windows.SDK.BuildTools": "10.0.26100.1742",
+          "Microsoft.WindowsAppSDK": "1.6.250108002",
           "rbnswartz.LinuxIntegration.Notifications": "0.0.1",
           "Microsoft.Web.WebView2.Core.Projection": "1.0.2651.64",
           "runtimepack.Microsoft.NETCore.App.Runtime.win-x86": "8.0.12",
-          "runtimepack.Microsoft.Windows.SDK.NET.Ref": "10.0.19041.41"
+          "runtimepack.Microsoft.Windows.SDK.NET.Ref": "10.0.19041.57"
         },
         "runtime": {
           "BatteryNotification.dll": {}
@@ -731,15 +731,15 @@
           }
         }
       },
-      "runtimepack.Microsoft.Windows.SDK.NET.Ref/10.0.19041.41": {
+      "runtimepack.Microsoft.Windows.SDK.NET.Ref/10.0.19041.57": {
         "runtime": {
           "Microsoft.Windows.SDK.NET.dll": {
             "assemblyVersion": "10.0.19041.38",
-            "fileVersion": "10.0.19041.40"
+            "fileVersion": "10.0.19041.55"
           },
           "WinRT.Runtime.dll": {
-            "assemblyVersion": "2.1.0.0",
-            "fileVersion": "2.1.1.47192"
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.48161"
           }
         }
       },
@@ -910,20 +910,20 @@
           }
         }
       },
-      "Microsoft.Windows.SDK.BuildTools/10.0.22621.756": {},
-      "Microsoft.WindowsAppSDK/1.6.241114003": {
+      "Microsoft.Windows.SDK.BuildTools/10.0.26100.1742": {},
+      "Microsoft.WindowsAppSDK/1.6.250108002": {
         "dependencies": {
           "Microsoft.Web.WebView2": "1.0.2651.64",
-          "Microsoft.Windows.SDK.BuildTools": "10.0.22621.756"
+          "Microsoft.Windows.SDK.BuildTools": "10.0.26100.1742"
         },
         "runtime": {
           "lib/net6.0-windows10.0.18362.0/Microsoft.InteractiveExperiences.Projection.dll": {
             "assemblyVersion": "10.0.0.0",
-            "fileVersion": "10.0.26107.1015"
+            "fileVersion": "10.0.26107.1019"
           },
           "lib/net6.0-windows10.0.18362.0/Microsoft.WinUI.dll": {
             "assemblyVersion": "3.0.0.0",
-            "fileVersion": "3.0.0.2411"
+            "fileVersion": "3.0.0.2501"
           },
           "lib/net6.0-windows10.0.18362.0/Microsoft.Windows.AppLifecycle.Projection.dll": {
             "assemblyVersion": "1.6.0.0",
@@ -1070,7 +1070,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "runtimepack.Microsoft.Windows.SDK.NET.Ref/10.0.19041.41": {
+    "runtimepack.Microsoft.Windows.SDK.NET.Ref/10.0.19041.57": {
       "type": "runtimepack",
       "serviceable": false,
       "sha512": ""
@@ -1173,19 +1173,19 @@
       "path": "microsoft.web.webview2/1.0.2651.64",
       "hashPath": "microsoft.web.webview2.1.0.2651.64.nupkg.sha512"
     },
-    "Microsoft.Windows.SDK.BuildTools/10.0.22621.756": {
+    "Microsoft.Windows.SDK.BuildTools/10.0.26100.1742": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-7ZL2sFSioYm1Ry067Kw1hg0SCcW5kuVezC2SwjGbcPE61Nn+gTbH86T73G3LcEOVj0S3IZzNuE/29gZvOLS7VA==",
-      "path": "microsoft.windows.sdk.buildtools/10.0.22621.756",
-      "hashPath": "microsoft.windows.sdk.buildtools.10.0.22621.756.nupkg.sha512"
+      "sha512": "sha512-ypcHjr4KEi6xQhgClnbXoANHcyyX/QsC4Rky4igs6M4GiDa+weegPo8JuV/VMxqrZCV4zlqDsp2krgkN7ReAAg==",
+      "path": "microsoft.windows.sdk.buildtools/10.0.26100.1742",
+      "hashPath": "microsoft.windows.sdk.buildtools.10.0.26100.1742.nupkg.sha512"
     },
-    "Microsoft.WindowsAppSDK/1.6.241114003": {
+    "Microsoft.WindowsAppSDK/1.6.250108002": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-5XBNubjJi7+7DDI5lUXR3Jc0/memeFJyP6zmGTGgQcmTTbUf2T6U1f+qwcXHT+2yoXpaDuZCE86/aDLdU30e5A==",
-      "path": "microsoft.windowsappsdk/1.6.241114003",
-      "hashPath": "microsoft.windowsappsdk.1.6.241114003.nupkg.sha512"
+      "sha512": "sha512-dOJ3oFeHnehVBAR98lR6YfX0JgDJkrehLqwZQqQE/iZgyye1c1TZu9oj3MBbgWP9xFApWUrb0G49KKnQWEZLtA==",
+      "path": "microsoft.windowsappsdk/1.6.250108002",
+      "hashPath": "microsoft.windowsappsdk.1.6.250108002.nupkg.sha512"
     },
     "rbnswartz.LinuxIntegration.Notifications/0.0.1": {
       "type": "package",

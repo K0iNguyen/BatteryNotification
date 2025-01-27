@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Projects\\App\\BatteryNotification\\BatteryNotificationLinux\\BatteryNotification\\BatteryNotification\\BatteryNotification\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BatteryNotification.bundle.scp.css",
+      "PackagePath": "staticwebassets\\BatteryNotification.xcggjg6xlk.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Projects\\App\\BatteryNotification\\BatteryNotificationLinux\\BatteryNotification\\BatteryNotification\\BatteryNotification\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "D:\\Projects\\App\\BatteryNotification\\BatteryNotificationLinux\\BatteryNotification\\BatteryNotification\\BatteryNotification\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\App\\BatteryNotification\\BatteryNotificationLinux\\BatteryNotification\\BatteryNotification\\BatteryNotification\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\App\\BatteryNotification\\BatteryNotificationLinux\\BatteryNotification\\BatteryNotification\\BatteryNotification\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BatteryNotification.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BatteryNotification.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.BatteryNotification.props",
+      "PackagePath": "build\\BatteryNotification.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.BatteryNotification.props",
+      "PackagePath": "buildMultiTargeting\\BatteryNotification.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.BatteryNotification.props",
+      "PackagePath": "buildTransitive\\BatteryNotification.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
