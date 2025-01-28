@@ -1,10 +1,13 @@
 ## Function
 Send a notification when battery percentage got to a define percentage.<br/>
+
+## How the app works
 ![SampleAppUI](/Images/SampleAppUI.png/)\
 Enter which battery percentage you want to be notified about.<br/>
 
 ![NotificationSample](/Images/SampleNotification.png/)\
-How the notification will look like.
+The application will send a notification that will be marked as urgent.
+
 ## To - Do List:
 - [x] Add a memory to save user setting
 - [ ] Linux Integration
