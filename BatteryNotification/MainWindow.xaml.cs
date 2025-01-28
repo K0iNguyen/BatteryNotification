@@ -17,6 +17,8 @@ using Windows.System;
 using Microsoft.Extensions.Logging;
 using ABI.System.Collections.Generic;
 using System.Threading;
+using Microsoft.UI.Windowing;
+using Microsoft.UI;
 
 // To learn more about WinUI, the WinUI project structure,
 // and more about our project templates, see: http://aka.ms/winui-project-info.
@@ -38,11 +40,16 @@ namespace BatteryNotification
         static ILoggerFactory factory = LoggerFactory.Create(builder => builder.AddConsole().AddDebug().SetMinimumLevel(LogLevel.Debug));
         ILogger logger = factory.CreateLogger<MainWindow>();
 
+
         public MainWindow()
         {
             this.InitializeComponent();
             this.Title = "Battery Notification";
+
+            AppWindow.SetIcon("Assets\\Square150x150Logo.scale-200.ico");
             AppWindow.Resize(new Windows.Graphics.SizeInt32(650, 250));
+            AppWindow.TitleBar.BackgroundColor = Colors.DarkGreen;
+            AppWindow.TitleBar.ButtonBackgroundColor = Colors.DarkGreen;
             Directory.CreateDirectory(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "BatteryNotification"));
             logger.LogDebug(cachePath);
             loadStartup();

@@ -266,6 +266,12 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
+      "Microsoft.NET.ILLink.Tasks/8.0.12": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
       "Microsoft.Web.WebView2/1.0.2651.64": {
         "type": "package",
         "build": {
@@ -822,6 +828,12 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
+      "Microsoft.NET.ILLink.Tasks/8.0.12": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
       "Microsoft.Web.WebView2/1.0.2651.64": {
         "type": "package",
         "native": {
@@ -1338,6 +1350,12 @@
         },
         "build": {
           "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "Microsoft.NET.ILLink.Tasks/8.0.12": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
       "Microsoft.Web.WebView2/1.0.2651.64": {
@@ -2032,6 +2050,57 @@
         "lib/netstandard2.0/Microsoft.Extensions.Primitives.xml",
         "microsoft.extensions.primitives.9.0.1.nupkg.sha512",
         "microsoft.extensions.primitives.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.NET.ILLink.Tasks/8.0.12": {
+      "sha512": "FV4HnQ3JI15PHnJ5PGTbz+rYvrih42oLi/7UMIshNwCwUZhTq13UzrggtXk4ygrcMcN+4jsS6hhshx2p/Zd0ig==",
+      "type": "package",
+      "path": "microsoft.net.illink.tasks/8.0.12",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "Sdk/Sdk.props",
+        "THIRD-PARTY-NOTICES.TXT",
+        "analyzers/dotnet/cs/ILLink.CodeFixProvider.dll",
+        "analyzers/dotnet/cs/ILLink.RoslynAnalyzer.dll",
+        "build/Microsoft.NET.ILLink.Analyzers.props",
+        "build/Microsoft.NET.ILLink.Tasks.props",
+        "build/Microsoft.NET.ILLink.targets",
+        "microsoft.net.illink.tasks.8.0.12.nupkg.sha512",
+        "microsoft.net.illink.tasks.nuspec",
+        "tools/net472/ILLink.Tasks.dll",
+        "tools/net472/ILLink.Tasks.dll.config",
+        "tools/net472/Mono.Cecil.Mdb.dll",
+        "tools/net472/Mono.Cecil.Pdb.dll",
+        "tools/net472/Mono.Cecil.Rocks.dll",
+        "tools/net472/Mono.Cecil.dll",
+        "tools/net472/Sdk/Sdk.props",
+        "tools/net472/System.Buffers.dll",
+        "tools/net472/System.Collections.Immutable.dll",
+        "tools/net472/System.Memory.dll",
+        "tools/net472/System.Numerics.Vectors.dll",
+        "tools/net472/System.Reflection.Metadata.dll",
+        "tools/net472/System.Runtime.CompilerServices.Unsafe.dll",
+        "tools/net472/build/Microsoft.NET.ILLink.Analyzers.props",
+        "tools/net472/build/Microsoft.NET.ILLink.Tasks.props",
+        "tools/net472/build/Microsoft.NET.ILLink.targets",
+        "tools/net8.0/ILLink.Tasks.deps.json",
+        "tools/net8.0/ILLink.Tasks.dll",
+        "tools/net8.0/Mono.Cecil.Mdb.dll",
+        "tools/net8.0/Mono.Cecil.Pdb.dll",
+        "tools/net8.0/Mono.Cecil.Rocks.dll",
+        "tools/net8.0/Mono.Cecil.dll",
+        "tools/net8.0/Sdk/Sdk.props",
+        "tools/net8.0/build/Microsoft.NET.ILLink.Analyzers.props",
+        "tools/net8.0/build/Microsoft.NET.ILLink.Tasks.props",
+        "tools/net8.0/build/Microsoft.NET.ILLink.targets",
+        "tools/net8.0/illink.deps.json",
+        "tools/net8.0/illink.dll",
+        "tools/net8.0/illink.runtimeconfig.json",
         "useSharedDesignerContext.txt"
       ]
     },
@@ -3081,6 +3150,7 @@
       "Microsoft.Extensions.Logging >= 9.0.1",
       "Microsoft.Extensions.Logging.Console >= 9.0.1",
       "Microsoft.Extensions.Logging.Debug >= 9.0.1",
+      "Microsoft.NET.ILLink.Tasks >= 8.0.12",
       "Microsoft.Windows.SDK.BuildTools >= 10.0.26100.1742",
       "Microsoft.WindowsAppSDK >= 1.6.250108002",
       "rbnswartz.LinuxIntegration.Notifications >= 0.0.1"
@@ -3149,6 +3219,12 @@
           "Microsoft.Extensions.Logging.Debug": {
             "target": "Package",
             "version": "[9.0.1, )"
+          },
+          "Microsoft.NET.ILLink.Tasks": {
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[8.0.12, )",
+            "autoReferenced": true
           },
           "Microsoft.Windows.SDK.BuildTools": {
             "target": "Package",

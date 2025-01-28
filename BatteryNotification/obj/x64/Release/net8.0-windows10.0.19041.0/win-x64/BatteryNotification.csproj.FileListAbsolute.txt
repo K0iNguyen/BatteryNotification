@@ -264,10 +264,5 @@ D:\Projects\App\BatteryNotification\BatteryNotification\obj\x64\Release\net8.0-w
 D:\Projects\App\BatteryNotification\BatteryNotification\obj\x64\Release\net8.0-windows10.0.19041.0\win-x64\qualifiers.txt
 D:\Projects\App\BatteryNotification\BatteryNotification\obj\x64\Release\net8.0-windows10.0.19041.0\win-x64\qualifiers.txt.intermediate
 D:\Projects\App\BatteryNotification\BatteryNotification\obj\x64\Release\net8.0-windows10.0.19041.0\win-x64\MultipleQualifiersPerDimensionFound.txt
-D:\Projects\App\BatteryNotification\BatteryNotification\bin\x64\Release\net8.0-windows10.0.19041.0\win-x64\Assets\LockScreenLogo.scale-200.png
-D:\Projects\App\BatteryNotification\BatteryNotification\bin\x64\Release\net8.0-windows10.0.19041.0\win-x64\Assets\SplashScreen.scale-200.png
-D:\Projects\App\BatteryNotification\BatteryNotification\bin\x64\Release\net8.0-windows10.0.19041.0\win-x64\Assets\Square150x150Logo.scale-200.png
-D:\Projects\App\BatteryNotification\BatteryNotification\bin\x64\Release\net8.0-windows10.0.19041.0\win-x64\Assets\Square44x44Logo.scale-200.png
-D:\Projects\App\BatteryNotification\BatteryNotification\bin\x64\Release\net8.0-windows10.0.19041.0\win-x64\Assets\Square44x44Logo.targetsize-24_altform-unplated.png
-D:\Projects\App\BatteryNotification\BatteryNotification\bin\x64\Release\net8.0-windows10.0.19041.0\win-x64\Assets\StoreLogo.png
-D:\Projects\App\BatteryNotification\BatteryNotification\bin\x64\Release\net8.0-windows10.0.19041.0\win-x64\Assets\Wide310x150Logo.scale-200.png
+D:\Projects\App\BatteryNotification\BatteryNotification\bin\x64\Release\net8.0-windows10.0.19041.0\win-x64\AppxManifest.xml
+D:\Projects\App\BatteryNotification\BatteryNotification\obj\x64\Release\net8.0-windows10.0.19041.0\win-x64\ProjectArchitectures.txt

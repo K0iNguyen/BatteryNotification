@@ -5,6 +5,8 @@ VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BatteryNotification", "BatteryNotification.csproj", "{41DDA1EA-1538-4938-8EE6-93D6A7F3440F}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "..\Setup\Setup.vdproj", "{421537D4-6DA5-4931-B897-837414ED7C57}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM64 = Debug|ARM64
@@ -33,6 +35,12 @@ Global
 		{41DDA1EA-1538-4938-8EE6-93D6A7F3440F}.Release|x86.ActiveCfg = Release|x64
 		{41DDA1EA-1538-4938-8EE6-93D6A7F3440F}.Release|x86.Build.0 = Release|x64
 		{41DDA1EA-1538-4938-8EE6-93D6A7F3440F}.Release|x86.Deploy.0 = Release|x64
+		{421537D4-6DA5-4931-B897-837414ED7C57}.Debug|ARM64.ActiveCfg = Debug
+		{421537D4-6DA5-4931-B897-837414ED7C57}.Debug|x64.ActiveCfg = Debug
+		{421537D4-6DA5-4931-B897-837414ED7C57}.Debug|x86.ActiveCfg = Debug
+		{421537D4-6DA5-4931-B897-837414ED7C57}.Release|ARM64.ActiveCfg = Release
+		{421537D4-6DA5-4931-B897-837414ED7C57}.Release|x64.ActiveCfg = Release
+		{421537D4-6DA5-4931-B897-837414ED7C57}.Release|x86.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

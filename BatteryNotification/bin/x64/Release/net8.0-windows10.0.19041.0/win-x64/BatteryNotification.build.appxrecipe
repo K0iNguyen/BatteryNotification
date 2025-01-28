@@ -709,6 +709,9 @@
     <AppxPackagedFile Include="D:\Projects\App\BatteryNotification\BatteryNotification\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\App\BatteryNotification\BatteryNotification\Assets\Square150x150Logo.scale-200.ico">
+      <PackagePath>Assets\Square150x150Logo.scale-200.ico</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Projects\App\BatteryNotification\BatteryNotification\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
     </AppxPackagedFile>
