@@ -1,7 +1,7 @@
 ## Function
-Send a notification when battery percentage got to a define percentage.
+Send a notification when battery percentage got to a define percentage.<br/>
 ![SampleAppUI](/Images/SampleAppUI.png/)\
-Enter which battery percentage you want to be notified about.
+Enter which battery percentage you want to be notified about.<br/>
 
 ![NotificationSample](/Images/SampleNotification.png/)\
 How the notification will look like.
